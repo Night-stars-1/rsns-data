@@ -26,7 +26,7 @@
         "offsetX": 47
       }
     ],
-    "name": "车长室",
+    "name": "",
     "describe": "",
     "level": 1,
     "thumbnail": "",
@@ -55,6 +55,12 @@
       },
       {
         "id": 70500068
+      },
+      {
+        "id": 70500088
+      },
+      {
+        "id": 70500076
       }
     ],
     "cannotMove": true,
@@ -133,6 +139,12 @@
       },
       {
         "id": 70500071
+      },
+      {
+        "id": 70500091
+      },
+      {
+        "id": 70500078
       }
     ],
     "cannotMove": true,
@@ -230,6 +242,12 @@
       },
       {
         "id": 70500069
+      },
+      {
+        "id": 70500089
+      },
+      {
+        "id": 70500077
       }
     ],
     "cannotMove": false,
@@ -317,6 +335,12 @@
       },
       {
         "id": 70500069
+      },
+      {
+        "id": 70500089
+      },
+      {
+        "id": 70500077
       }
     ],
     "cannotMove": false,
@@ -414,6 +438,12 @@
       },
       {
         "id": 70500070
+      },
+      {
+        "id": 70500090
+      },
+      {
+        "id": 70500087
       }
     ],
     "cannotMove": false,
@@ -501,6 +531,12 @@
       },
       {
         "id": 70500070
+      },
+      {
+        "id": 70500090
+      },
+      {
+        "id": 70500087
       }
     ],
     "cannotMove": false,
@@ -553,8 +589,8 @@
     "defaultFloor": 81300169,
     "defaultWallPaper": 81300170,
     "bayInfos": [],
-    "name": "车长室",
-    "describe": "车长室",
+    "name": "",
+    "describe": "",
     "level": 1,
     "thumbnail": "",
     "thumbnailone": "",
@@ -599,8 +635,8 @@
     "defaultFloor": 81300001,
     "defaultWallPaper": 81300004,
     "bayInfos": [],
-    "name": "车长室",
-    "describe": "车长室",
+    "name": "",
+    "describe": "",
     "level": 1,
     "thumbnail": "",
     "thumbnailone": "",
@@ -674,6 +710,9 @@
       },
       {
         "id": 70500072
+      },
+      {
+        "id": 70500092
       }
     ],
     "cannotMove": true,
@@ -759,6 +798,12 @@
       },
       {
         "id": 70500071
+      },
+      {
+        "id": 70500091
+      },
+      {
+        "id": 70500078
       }
     ],
     "cannotMove": true,
@@ -840,6 +885,12 @@
       },
       {
         "id": 70500071
+      },
+      {
+        "id": 70500091
+      },
+      {
+        "id": 70500078
       }
     ],
     "cannotMove": true,
@@ -892,8 +943,8 @@
     "defaultFloor": 81300181,
     "defaultWallPaper": 81300183,
     "bayInfos": [],
-    "name": "车长室",
-    "describe": "车长室",
+    "name": "",
+    "describe": "",
     "level": 1,
     "thumbnail": "",
     "thumbnailone": "",
@@ -938,8 +989,8 @@
     "defaultFloor": 81300218,
     "defaultWallPaper": 81300219,
     "bayInfos": [],
-    "name": "车长室",
-    "describe": "车长室",
+    "name": "",
+    "describe": "",
     "level": 1,
     "thumbnail": "",
     "thumbnailone": "",
@@ -984,8 +1035,8 @@
     "defaultFloor": 81300001,
     "defaultWallPaper": 81300004,
     "bayInfos": [],
-    "name": "车长室",
-    "describe": "车长室",
+    "name": "",
+    "describe": "",
     "level": 1,
     "thumbnail": "",
     "thumbnailone": "",
@@ -1030,7 +1081,7 @@
     "defaultFloor": 81300285,
     "defaultWallPaper": 81300286,
     "bayInfos": [],
-    "name": "车长室",
+    "name": "",
     "describe": "",
     "level": 1,
     "thumbnail": "",
@@ -1076,7 +1127,7 @@
     "defaultFloor": 81300168,
     "defaultWallPaper": 81300310,
     "bayInfos": [],
-    "name": "车长室",
+    "name": "",
     "describe": "",
     "level": 1,
     "thumbnail": "",
@@ -1091,6 +1142,52 @@
     "waittime": 21600,
     "JumptimeList": [],
     "defaultTemplate": 81400013,
+    "returnMaterialList": [],
+    "unlockLevel": 0,
+    "Achieve": -1,
+    "weaponTypeList": [],
+    "space": 0.0,
+    "weaponNum": 0,
+    "accessoryNum": 0,
+    "electricCost": 0,
+    "characterNum": 0,
+    "carriagedurability": 0,
+    "carriageRubbish": 0,
+    "speedEffect": 0.0,
+    "passengerCapacity": 0,
+    "Armor": 0
+  },
+  {
+    "id": 81200013,
+    "idCN": "监狱/1号车间",
+    "mod": "车厢属性",
+    "isInformalData": false,
+    "coachType": 12600165,
+    "defaultSkin": 70500001,
+    "CoachX": 45,
+    "CoachZ": 20,
+    "CoachY": 8,
+    "doorOffsetX": 1.0,
+    "doorLeftFurniture": -1,
+    "doorRightFurniture": -1,
+    "defaultFloor": 81300364,
+    "defaultWallPaper": 81300363,
+    "bayInfos": [],
+    "name": "",
+    "describe": "",
+    "level": 1,
+    "thumbnail": "",
+    "thumbnailone": "",
+    "skinList": [],
+    "cannotMove": true,
+    "cannotDecorate": false,
+    "studyNeedLevel": 1,
+    "studyMaterialList": [],
+    "nextCoach": -1,
+    "buildMaterialList": [],
+    "waittime": 21600,
+    "JumptimeList": [],
+    "defaultTemplate": 81400014,
     "returnMaterialList": [],
     "unlockLevel": 0,
     "Achieve": -1,

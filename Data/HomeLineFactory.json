@@ -6584,7 +6584,13 @@
         "id": 80601265
       }
     ],
-    "AttractionList": [],
+    "AttractionList": [
+      {
+        "disMax": 5500,
+        "disMin": 4700,
+        "id": 20700301
+      }
+    ],
     "areaList": [
       {
         "areaId": 84600006,
@@ -7026,7 +7032,17 @@
         "lineMin": 0.0
       }
     ],
-    "mapNeedleList": [],
+    "mapNeedleList": [
+      {
+        "id": 52000046
+      },
+      {
+        "id": 52000047
+      },
+      {
+        "id": 52000048
+      }
+    ],
     "forceNeedleList": [],
     "lineQuestList": [],
     "station01": 83000010,
@@ -7805,8 +7821,8 @@
     ],
     "cityList": [
       {
-        "buildingId": 84400006,
-        "cityId": 83000020
+        "buildingId": 84400017,
+        "cityId": 83000010
       }
     ],
     "wayPointList": [
@@ -8256,7 +8272,17 @@
         "lineMin": 0.0
       }
     ],
-    "mapNeedleList": [],
+    "mapNeedleList": [
+      {
+        "id": 52000046
+      },
+      {
+        "id": 52000047
+      },
+      {
+        "id": 52000048
+      }
+    ],
     "forceNeedleList": [],
     "lineQuestList": [],
     "station01": 83000014,
@@ -8730,8 +8756,8 @@
     ],
     "cityList": [
       {
-        "buildingId": 84400006,
-        "cityId": 83000020
+        "buildingId": 84400017,
+        "cityId": 83000010
       }
     ],
     "wayPointList": [

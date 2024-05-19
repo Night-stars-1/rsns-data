@@ -49,6 +49,23 @@
     ]
   },
   {
+    "id": 86100003,
+    "idCN": "素材列表/黄金七天乐",
+    "mod": "素材列表",
+    "isInformalData": false,
+    "materialList": [
+      {
+        "id": 11700182
+      },
+      {
+        "id": 11700188
+      },
+      {
+        "id": 11700181
+      }
+    ]
+  },
+  {
     "id": 86100004,
     "idCN": "城市列表/黄金周/沙金/卖出",
     "mod": "城市列表",
@@ -68,6 +85,12 @@
       },
       {
         "id": 83000010
+      },
+      {
+        "id": 83000002
+      },
+      {
+        "id": 83000052
       },
       {
         "id": 83000003
@@ -116,6 +139,12 @@
         "id": 83000010
       },
       {
+        "id": 83000002
+      },
+      {
+        "id": 83000052
+      },
+      {
         "id": 83000003
       },
       {
@@ -129,6 +158,468 @@
       },
       {
         "id": 83000012
+      }
+    ]
+  },
+  {
+    "id": 86100007,
+    "idCN": "客运列表/客运buff1",
+    "mod": "客运列表",
+    "isInformalData": false,
+    "passengerBufflList": [
+      {
+        "id": 84100119
+      },
+      {
+        "id": 84100120
+      }
+    ]
+  },
+  {
+    "id": 86100008,
+    "idCN": "客运列表/客运buff2",
+    "mod": "客运列表",
+    "isInformalData": false,
+    "passengerBufflList": [
+      {
+        "id": 84100121
+      },
+      {
+        "id": 84100122
+      },
+      {
+        "id": 84100123
+      }
+    ]
+  },
+  {
+    "id": 86100009,
+    "idCN": "客运列表/客运buff3",
+    "mod": "客运列表",
+    "isInformalData": false,
+    "passengerBufflList": [
+      {
+        "id": 84100124
+      },
+      {
+        "id": 84100119
+      }
+    ]
+  },
+  {
+    "id": 86100010,
+    "idCN": "城市列表/黄金周/枪械/买入",
+    "mod": "城市列表",
+    "isInformalData": false,
+    "stationList": [
+      {
+        "id": 83000001
+      },
+      {
+        "id": 83000026
+      }
+    ]
+  },
+  {
+    "id": 86100011,
+    "idCN": "城市列表/黄金周/枪械/卖出",
+    "mod": "城市列表",
+    "isInformalData": false,
+    "stationList": [
+      {
+        "id": 83000020
+      },
+      {
+        "id": 83000053
+      },
+      {
+        "id": 83000029
+      },
+      {
+        "id": 83000010
+      },
+      {
+        "id": 83000002
+      },
+      {
+        "id": 83000052
+      },
+      {
+        "id": 83000003
+      },
+      {
+        "id": 83000004
+      },
+      {
+        "id": 83000014
+      },
+      {
+        "id": 83000012
+      }
+    ]
+  },
+  {
+    "id": 86100012,
+    "idCN": "城市列表/黄金周/防弹衣/买入",
+    "mod": "城市列表",
+    "isInformalData": false,
+    "stationList": [
+      {
+        "id": 83000026
+      }
+    ]
+  },
+  {
+    "id": 86100013,
+    "idCN": "城市列表/黄金周/防弹衣/卖出",
+    "mod": "城市列表",
+    "isInformalData": false,
+    "stationList": [
+      {
+        "id": 83000020
+      },
+      {
+        "id": 83000001
+      },
+      {
+        "id": 83000053
+      },
+      {
+        "id": 83000029
+      },
+      {
+        "id": 83000010
+      },
+      {
+        "id": 83000002
+      },
+      {
+        "id": 83000052
+      },
+      {
+        "id": 83000003
+      },
+      {
+        "id": 83000004
+      },
+      {
+        "id": 83000014
+      },
+      {
+        "id": 83000012
+      }
+    ]
+  },
+  {
+    "id": 86100015,
+    "idCN": "每周事件列表/黄金事件",
+    "mod": "事件行情",
+    "isInformalData": false,
+    "goodsList": [
+      {
+        "buyQuotationMax": 1.35,
+        "buyQuotationMin": 0.8,
+        "buyStation": -1,
+        "id": 82900170,
+        "sellQuotationMax": 1.35,
+        "sellQuotationMin": 0.8,
+        "sellStation": 86100006
+      },
+      {
+        "buyQuotationMax": 1.35,
+        "buyQuotationMin": 0.8,
+        "buyStation": -1,
+        "id": 82900102,
+        "sellQuotationMax": 1.35,
+        "sellQuotationMin": 0.8,
+        "sellStation": 86100006
+      },
+      {
+        "buyQuotationMax": 1.35,
+        "buyQuotationMin": 0.8,
+        "buyStation": 86100005,
+        "id": 82900015,
+        "sellQuotationMax": 1.35,
+        "sellQuotationMin": 0.8,
+        "sellStation": 86100004
+      }
+    ],
+    "recycleCityList": [
+      {
+        "cityId": 83000004,
+        "highCoefficient": 0.5,
+        "materialList": 11700188
+      },
+      {
+        "cityId": 83000014,
+        "highCoefficient": 1.5,
+        "materialList": -1
+      }
+    ],
+    "isChangeLeaflet": true,
+    "isChangePond": true,
+    "activityLeafletList": [
+      {
+        "desc": "传单免费数量增加100%",
+        "leafletNum": 1.0
+      }
+    ],
+    "activityPassengerList": [
+      {
+        "activityPond": 85600074,
+        "activityPondNum": 0.5,
+        "cityId": 83000004,
+        "desc": "招揽到高级乘客概率提高1倍"
+      }
+    ],
+    "activityGradeList": [
+      {
+        "id": 84100124
+      },
+      {
+        "id": 84100145
+      }
+    ],
+    "activityTriggerList": [
+      {
+        "id": 84100152
+      }
+    ]
+  },
+  {
+    "id": 86100016,
+    "idCN": "每周事件列表/宝石事件",
+    "mod": "事件行情",
+    "isInformalData": false,
+    "goodsList": [
+      {
+        "buyQuotationMax": 1.5,
+        "buyQuotationMin": 0.5,
+        "buyStation": 86100012,
+        "id": 82900169,
+        "sellQuotationMax": 1.5,
+        "sellQuotationMin": 0.5,
+        "sellStation": 86100013
+      },
+      {
+        "buyQuotationMax": 1.0,
+        "buyQuotationMin": 0.5,
+        "buyStation": 86100005,
+        "id": 82900147,
+        "sellQuotationMax": 1.5,
+        "sellQuotationMin": 1.0,
+        "sellStation": 86100004
+      },
+      {
+        "buyQuotationMax": 1.0,
+        "buyQuotationMin": 0.5,
+        "buyStation": 86100005,
+        "id": 82900030,
+        "sellQuotationMax": 1.5,
+        "sellQuotationMin": 1.0,
+        "sellStation": 86100004
+      }
+    ],
+    "recycleCityList": [
+      {
+        "cityId": 83000004,
+        "highCoefficient": 1.5,
+        "materialList": -1
+      },
+      {
+        "cityId": 83000014,
+        "highCoefficient": 1.5,
+        "materialList": -1
+      },
+      {
+        "cityId": 83000004,
+        "highCoefficient": 0.5,
+        "materialList": 11700188
+      }
+    ],
+    "isChangeLeaflet": true,
+    "isChangePond": true,
+    "activityLeafletList": [
+      {
+        "desc": "传单免费数量增加50%",
+        "leafletNum": 0.5
+      }
+    ],
+    "activityPassengerList": [
+      {
+        "activityPond": 85600074,
+        "activityPondNum": 0.5,
+        "cityId": 83000004,
+        "desc": "招揽到高级乘客概率提高1倍"
+      }
+    ],
+    "activityGradeList": [
+      {
+        "id": 84100150
+      },
+      {
+        "id": 84100140
+      }
+    ],
+    "activityTriggerList": [
+      {
+        "id": 84100152
+      }
+    ]
+  },
+  {
+    "id": 86100017,
+    "idCN": "每周事件列表/显卡事件",
+    "mod": "事件行情",
+    "isInformalData": false,
+    "goodsList": [
+      {
+        "buyQuotationMax": 1.35,
+        "buyQuotationMin": 0.8,
+        "buyStation": -1,
+        "id": 82900170,
+        "sellQuotationMax": 1.35,
+        "sellQuotationMin": 0.8,
+        "sellStation": 86100006
+      },
+      {
+        "buyQuotationMax": 1.35,
+        "buyQuotationMin": 0.8,
+        "buyStation": -1,
+        "id": 82900102,
+        "sellQuotationMax": 1.35,
+        "sellQuotationMin": 0.8,
+        "sellStation": 86100006
+      },
+      {
+        "buyQuotationMax": 1.5,
+        "buyQuotationMin": 0.5,
+        "buyStation": 86100010,
+        "id": 82900007,
+        "sellQuotationMax": 1.5,
+        "sellQuotationMin": 0.5,
+        "sellStation": 86100011
+      },
+      {
+        "buyQuotationMax": 1.0,
+        "buyQuotationMin": 0.5,
+        "buyStation": 86100005,
+        "id": 82900030,
+        "sellQuotationMax": 1.5,
+        "sellQuotationMin": 1.0,
+        "sellStation": 86100004
+      }
+    ],
+    "recycleCityList": [
+      {
+        "cityId": 83000004,
+        "highCoefficient": 0.5,
+        "materialList": 11700188
+      },
+      {
+        "cityId": 83000014,
+        "highCoefficient": 1.5,
+        "materialList": -1
+      }
+    ],
+    "isChangeLeaflet": false,
+    "isChangePond": true,
+    "activityLeafletList": [],
+    "activityPassengerList": [
+      {
+        "activityPond": 85600074,
+        "activityPondNum": 0.5,
+        "cityId": 83000004,
+        "desc": "招揽到高级乘客概率提高1倍"
+      }
+    ],
+    "activityGradeList": [
+      {
+        "id": 84100122
+      },
+      {
+        "id": 84100121
+      },
+      {
+        "id": 84100142
+      }
+    ],
+    "activityTriggerList": [
+      {
+        "id": 84100152
+      }
+    ]
+  },
+  {
+    "id": 86100018,
+    "idCN": "每周事件列表/水产事件",
+    "mod": "事件行情",
+    "isInformalData": false,
+    "goodsList": [
+      {
+        "buyQuotationMax": 1.35,
+        "buyQuotationMin": 0.8,
+        "buyStation": 86100005,
+        "id": 82900015,
+        "sellQuotationMax": 1.35,
+        "sellQuotationMin": 0.8,
+        "sellStation": 86100004
+      },
+      {
+        "buyQuotationMax": 1.5,
+        "buyQuotationMin": 0.5,
+        "buyStation": 86100012,
+        "id": 82900164,
+        "sellQuotationMax": 1.5,
+        "sellQuotationMin": 0.5,
+        "sellStation": 86100013
+      },
+      {
+        "buyQuotationMax": 1.5,
+        "buyQuotationMin": 0.5,
+        "buyStation": 86100010,
+        "id": 82900007,
+        "sellQuotationMax": 1.5,
+        "sellQuotationMin": 0.5,
+        "sellStation": 86100011
+      },
+      {
+        "buyQuotationMax": 1.0,
+        "buyQuotationMin": 0.5,
+        "buyStation": 86100005,
+        "id": 82900030,
+        "sellQuotationMax": 1.5,
+        "sellQuotationMin": 1.0,
+        "sellStation": 86100004
+      }
+    ],
+    "recycleCityList": [
+      {
+        "cityId": 83000004,
+        "highCoefficient": 0.5,
+        "materialList": 11700188
+      }
+    ],
+    "isChangeLeaflet": true,
+    "isChangePond": false,
+    "activityLeafletList": [
+      {
+        "desc": "传单免费数量增加100%",
+        "leafletNum": 0.7
+      }
+    ],
+    "activityPassengerList": [],
+    "activityGradeList": [
+      {
+        "id": 84100141
+      },
+      {
+        "id": 84100143
+      }
+    ],
+    "activityTriggerList": [
+      {
+        "id": 84100152
       }
     ]
   }
