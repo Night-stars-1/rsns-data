@@ -8706,8 +8706,8 @@
         "skillId": 12301134
       }
     ],
-    "tempdesc": "对被燃烧的目标造成的最终伤害提高20%",
-    "desc": "对被燃烧的目标造成的最终伤害提高20%",
+    "tempdesc": "使我方全体对被燃烧的目标造成的最终伤害提高10%",
+    "desc": "使我方全体对被燃烧的目标造成的最终伤害提高10%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -8731,8 +8731,8 @@
         "skillId": 12301117
       }
     ],
-    "tempdesc": "打出黄卡后，生成1个【天火】",
-    "desc": "打出黄卡后，生成1个【天火】",
+    "tempdesc": "打出或丢弃黄卡后，生成1个【天火】",
+    "desc": "打出或丢弃黄卡后，生成1个【天火】",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -8810,8 +8810,8 @@
         "skillId": 12301118
       }
     ],
-    "tempdesc": "每有1张黑卡被生成时，生成1个【天火】",
-    "desc": "每有1张黑卡被生成时，生成1个【天火】",
+    "tempdesc": "每有1张黑卡或【暗艺】被生成时，生成1个【天火】",
+    "desc": "每有1张黑卡或【暗艺】被生成时，生成1个【天火】",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
