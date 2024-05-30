@@ -2180,7 +2180,7 @@
     "idCN": "00原版/05五星/达斯廷",
     "mod": "基础成长",
     "isInformalData": false,
-    "gHp_SN": 8100000,
+    "gHp_SN": 9000000,
     "gDef_SN": 81000,
     "gAtk_SN": 81000
   },
@@ -5244,16 +5244,34 @@
     "mod": "基础成长",
     "isInformalData": false,
     "gHp_SN": 270000000,
-    "gDef_SN": 60000,
+    "gDef_SN": 70000,
     "gAtk_SN": 90000
   },
   {
     "id": 12000381,
-    "idCN": "02装备/学会装备/断火之剑",
+    "idCN": "02装备/学会装备/断剑之火",
     "mod": "基础成长",
     "isInformalData": false,
     "gHp_SN": 0,
     "gDef_SN": 0,
     "gAtk_SN": 48000
+  },
+  {
+    "id": 12000382,
+    "idCN": "03桦树生物/BOSS/玫瑰粉钻骨龙-头",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 200000000,
+    "gDef_SN": 73000,
+    "gAtk_SN": 87000
+  },
+  {
+    "id": 12000383,
+    "idCN": "03桦树生物/BOSS/玫瑰粉钻骨龙-尾",
+    "mod": "基础成长",
+    "isInformalData": false,
+    "gHp_SN": 100000000,
+    "gDef_SN": 73000,
+    "gAtk_SN": 87000
   }
 ]

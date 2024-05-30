@@ -5459,7 +5459,7 @@
     "quality": "White",
     "imagePath": "RolePlus/Livia/Wonderland/Face",
     "tipsPath": "",
-    "des": "登记在无垠号乘员档案中的照片，统一裁切为标准尺寸。",
+    "des": "“列车长，要来这里拍张照吗？”",
     "convertItem": [
       {
         "id": 11400100,
@@ -5491,7 +5491,7 @@
     "idCN": "角色/5星/薇尔岚/美梦使者",
     "mod": "基础头像",
     "isInformalData": false,
-    "name": "薇尔岚",
+    "name": "美梦使者",
     "quality": "White",
     "imagePath": "RolePlus/Verlaine/Yumekuishug/Face",
     "tipsPath": "",
@@ -5509,7 +5509,7 @@
     "idCN": "角色/3星/艾略特/偷闲",
     "mod": "基础头像",
     "isInformalData": false,
-    "name": "艾略特",
+    "name": "偷闲",
     "quality": "White",
     "imagePath": "RolePlus/Eliot/Freetime/face",
     "tipsPath": "",
@@ -5527,7 +5527,7 @@
     "idCN": "角色/5星/亚莉奈/专属假日",
     "mod": "基础头像",
     "isInformalData": false,
-    "name": "亚莉奈",
+    "name": "专属假日",
     "quality": "White",
     "imagePath": "RolePlus/Arina/PrivateVacation/face",
     "tipsPath": "",
@@ -6533,7 +6533,7 @@
     "idCN": "角色/4星/甘雅/午夜余温",
     "mod": "基础头像",
     "isInformalData": false,
-    "name": "甘雅",
+    "name": "午夜余温",
     "quality": "White",
     "imagePath": "RolePlus/Ganya/Johnny/Face",
     "tipsPath": "",
@@ -6752,7 +6752,7 @@
     "idCN": "角色/3星/阿尔喀娜/乐园之夜",
     "mod": "基础头像",
     "isInformalData": false,
-    "name": "阿尔喀娜",
+    "name": "乐园之夜",
     "quality": "White",
     "imagePath": "RolePlus/Arcana/Pajama/Face",
     "tipsPath": "",
@@ -6873,7 +6873,7 @@
     "idCN": "角色/5星/柯娜/追风者",
     "mod": "基础头像",
     "isInformalData": false,
-    "name": "柯娜",
+    "name": "追风者",
     "quality": "White",
     "imagePath": "RolePlus/Conor/Ride/Face",
     "tipsPath": "",
@@ -6891,7 +6891,7 @@
     "idCN": "角色/4星/卡莱雅/真心珍藏",
     "mod": "基础头像",
     "isInformalData": false,
-    "name": "卡莱雅",
+    "name": "真心珍藏",
     "quality": "White",
     "imagePath": "RolePlus/Kaleya/Maid/Face",
     "tipsPath": "",
@@ -6909,11 +6909,479 @@
     "idCN": "角色/5星/妮蔻拉/暮光静谧",
     "mod": "基础头像",
     "isInformalData": false,
-    "name": "妮蔻拉",
+    "name": "暮光静谧",
     "quality": "White",
     "imagePath": "RolePlus/Betty/Pajama/Face",
     "tipsPath": "",
     "des": "“我有时也会想穿些别的衣服。好了，过来。”",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600411,
+    "idCN": "通行证头像/好奇玛",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "好奇玛",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/GiftSommer",
+    "tipsPath": "",
+    "des": "列车经停澄明数据中心时，终端中出现的影像。看起来是正在探险的索玛……",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600412,
+    "idCN": "角色/5星/柯娜/ConorRide1",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "柯娜",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/ConerRide_Sticker1",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600413,
+    "idCN": "角色/5星/柯娜/ConorRide2",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "柯娜",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/ConerRide_Sticker2",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600414,
+    "idCN": "角色/5星/柯娜/ConorRide3",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "柯娜",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/ConerRide_Sticker3",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600415,
+    "idCN": "角色/5星/柯娜/ConorRide4",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "柯娜",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/ConerRide_Sticker4",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600416,
+    "idCN": "角色/5星/妮蔻拉/BettyPajama4",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "妮蔻拉",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/BettyPajama_Sticker4",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600417,
+    "idCN": "角色/5星/妮蔻拉/BettyPajama3",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "妮蔻拉",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/BettyPajama_Sticker3",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600418,
+    "idCN": "角色/5星/妮蔻拉/BettyPajama2",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "妮蔻拉",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/BettyPajama_Sticker2",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600419,
+    "idCN": "角色/5星/妮蔻拉/BettyPajama1",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "妮蔻拉",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/BettyPajama_Sticker1",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600420,
+    "idCN": "角色/4星/卡莱雅/KaleyaMaid4",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "卡莱雅",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/KaleyaMaid_Sticker4",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600421,
+    "idCN": "角色/4星/卡莱雅/KaleyaMaid3",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "卡莱雅",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/KaleyaMaid_Sticker3",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600422,
+    "idCN": "角色/4星/卡莱雅/KaleyaMaid2",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "卡莱雅",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/KaleyaMaid_Sticker2",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600423,
+    "idCN": "角色/4星/卡莱雅/KaleyaMaid1",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "卡莱雅",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/KaleyaMaid_Sticker1",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600424,
+    "idCN": "角色/5星/马吉拉/瞩目时刻",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "瞩目时刻",
+    "quality": "White",
+    "imagePath": "RolePlus/Margiela/TV/Face",
+    "tipsPath": "",
+    "des": "“车长亲、车长亲！怎么样——嗯，从你的表情上已经得到答案啦！”",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600425,
+    "idCN": "角色/4星/莉薇娅/“永生花”",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "“永生花”",
+    "quality": "White",
+    "imagePath": "RolePlus/Livia/Nainai/Face",
+    "tipsPath": "",
+    "des": "登记在无垠号乘员档案中的照片，统一裁切为标准尺寸。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600426,
+    "idCN": "角色/5星/闻笙/得心应手",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "得心应手",
+    "quality": "White",
+    "imagePath": "RolePlus/Wensheng/Face",
+    "tipsPath": "",
+    "des": "登记在无垠号乘员档案中的照片，统一裁切为标准尺寸。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600427,
+    "idCN": "角色/4星/叶珏/琳琅",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "琳琅",
+    "quality": "White",
+    "imagePath": "RolePlus/Yejue/Face",
+    "tipsPath": "",
+    "des": "“说起来我的名字也和玉有关……但我是没什么金玉良言可说啦！”",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600428,
+    "idCN": "角色/4星/霖/神机",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "神机",
+    "quality": "White",
+    "imagePath": "RolePlus/Lin/Face",
+    "tipsPath": "",
+    "des": "“迷信？不对哦，这是帮你把命运掌握在自己手里，难道不好吗？”",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600429,
+    "idCN": "角色/4星/莉薇娅/LiviaNainai1",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "莉薇娅",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/LiviaNainai_Sticker1",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600430,
+    "idCN": "角色/5星/马吉拉/MargielaTV1",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "马吉拉",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/MargielaTV_Sticker1",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600431,
+    "idCN": "角色/5星/马吉拉/MargielaTV2",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "马吉拉",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/MargielaTV_Sticker2",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600432,
+    "idCN": "角色/5星/马吉拉/MargielaTV3",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "马吉拉",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/MargielaTV_Sticker3",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600433,
+    "idCN": "角色/5星/马吉拉/MargielaTV4",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "马吉拉",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/MargielaTV_Sticker4",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600434,
+    "idCN": "角色/4星/莉薇娅/LiviaNainai2",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "莉薇娅",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/LiviaNainai_Sticker2",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600435,
+    "idCN": "角色/4星/莉薇娅/LiviaNainai3",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "莉薇娅",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/LiviaNainai_Sticker3",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
+    "convertItem": [
+      {
+        "id": 11400100,
+        "num": 10
+      }
+    ],
+    "sort": 0
+  },
+  {
+    "id": 82600436,
+    "idCN": "角色/4星/莉薇娅/LiviaNainai4",
+    "mod": "基础头像",
+    "isInformalData": false,
+    "name": "莉薇娅",
+    "quality": "White",
+    "imagePath": "Item/RoleProfile/LiviaNainai_Sticker4",
+    "tipsPath": "",
+    "des": "由KEEP炸鸡店内设置的大头贴相机拍下的照片，捕捉了乘员面对相机的瞬间。",
     "convertItem": [
       {
         "id": 11400100,

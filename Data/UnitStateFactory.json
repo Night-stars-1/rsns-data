@@ -1024,6 +1024,15 @@
         "wHalf_SN": 20000,
         "x_SN": 20000,
         "y_SN": 10000
+      },
+      {
+        "frameEventId": 10500346,
+        "hHalf_SN": 0,
+        "triggerFrame": 46,
+        "triggerTime_SN": 7667,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
       }
     ],
     "effectList": [
@@ -2647,12 +2656,14 @@
     "id": 10200364,
     "idCN": "敌方/08军阀/蝎型机械体/站立状态1",
     "mod": "基础状态",
+    "isInformalData": false,
     "actionLevel": "Stand",
     "viewId": 11000046,
     "aniName": "stand",
     "isLoop": false,
     "aniTime_SN": 13333,
     "totalFrame": 80,
+    "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [],
     "effectList": [],
@@ -2660,10 +2671,10 @@
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
+    "speedY_SN": 0,
     "keyFrameList": [],
     "isSetSortingOrder": false,
-    "sortingOrder": -50000,
-    "speedY_SN": 0
+    "sortingOrder": -50000
   },
   {
     "id": 10200365,
@@ -3415,40 +3426,6 @@
         "triggerTime_SN": 0
       }
     ],
-    "isYChange": false,
-    "offsetYList": [],
-    "speed_SN": 0,
-    "speedY_SN": 0,
-    "keyFrameList": [],
-    "isSetSortingOrder": false,
-    "sortingOrder": 0
-  },
-  {
-    "id": 10200407,
-    "idCN": "我方/05五星/马吉拉/S2黑洞爆炸",
-    "mod": "基础状态",
-    "isInformalData": false,
-    "actionLevel": "SpecialSkill",
-    "viewId": 11000049,
-    "aniName": "skill_03_02",
-    "isLoop": false,
-    "aniTime_SN": 1667,
-    "totalFrame": 10,
-    "customFrameTag": "",
-    "frameChanged": true,
-    "frameEventList": [
-      {
-        "frameEventId": 10501683,
-        "hHalf_SN": 0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 0,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      }
-    ],
-    "effectList": [],
-    "soundList": [],
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
@@ -12737,12 +12714,12 @@
     ],
     "soundList": [
       {
-        "soundId": 30000297,
+        "soundId": 30000792,
         "triggerFrame": 1,
         "triggerTime_SN": 0
       },
       {
-        "soundId": 30000792,
+        "soundId": 30000297,
         "triggerFrame": 1,
         "triggerTime_SN": 0
       }
@@ -45553,6 +45530,11 @@
     ],
     "soundList": [
       {
+        "soundId": 30005008,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
         "soundId": 30002736
       }
     ],
@@ -63576,7 +63558,11 @@
       }
     ],
     "effectList": [],
-    "soundList": [],
+    "soundList": [
+      {
+        "soundId": 30002577
+      }
+    ],
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
@@ -68647,15 +68633,15 @@
   },
   {
     "id": 10202109,
-    "idCN": "我方/05五星/亚莉奈/B",
+    "idCN": "我方/05五星/亚莉奈/B（短",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
     "viewId": 11000144,
     "aniName": "skill_02",
     "isLoop": false,
-    "aniTime_SN": 27000,
-    "totalFrame": 162,
+    "aniTime_SN": 12167,
+    "totalFrame": 73,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
@@ -68680,8 +68666,8 @@
       {
         "frameEventId": 10501328,
         "hHalf_SN": 0,
-        "triggerFrame": 112,
-        "triggerTime_SN": 18667,
+        "triggerFrame": 22,
+        "triggerTime_SN": 3667,
         "wHalf_SN": 0,
         "x_SN": 4200,
         "y_SN": 15000
@@ -68689,8 +68675,8 @@
       {
         "frameEventId": 10501328,
         "hHalf_SN": 0,
-        "triggerFrame": 118,
-        "triggerTime_SN": 19667,
+        "triggerFrame": 28,
+        "triggerTime_SN": 4667,
         "wHalf_SN": 0,
         "x_SN": 4200,
         "y_SN": 15000
@@ -68698,8 +68684,8 @@
       {
         "frameEventId": 10501577,
         "hHalf_SN": 0,
-        "triggerFrame": 124,
-        "triggerTime_SN": 20667,
+        "triggerFrame": 34,
+        "triggerTime_SN": 5667,
         "wHalf_SN": 0,
         "x_SN": 4200,
         "y_SN": 15000
@@ -68771,8 +68757,8 @@
     "viewId": 11000144,
     "aniName": "preskl_03",
     "isLoop": false,
-    "aniTime_SN": 13333,
-    "totalFrame": 80,
+    "aniTime_SN": 4500,
+    "totalFrame": 27,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
@@ -68798,8 +68784,8 @@
         "effectId": 11103157,
         "offsetX": 0.0,
         "offsetY": 1.5,
-        "triggerFrame": 22,
-        "triggerTime_SN": 3667
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
       }
     ],
     "soundList": [
@@ -68808,8 +68794,8 @@
       },
       {
         "soundId": 30001786,
-        "triggerFrame": 25,
-        "triggerTime_SN": 4167
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
       }
     ],
     "isYChange": false,
@@ -68822,18 +68808,45 @@
   },
   {
     "id": 10202111,
-    "idCN": "我方/05五星/亚莉奈/S1",
+    "idCN": "我方/05五星/亚莉奈/S1（短",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "SpecialSkill",
     "viewId": 11000144,
     "aniName": "skill_03",
     "isLoop": false,
-    "aniTime_SN": 53333,
-    "totalFrame": 320,
+    "aniTime_SN": 15167,
+    "totalFrame": 91,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
+      {
+        "frameEventId": 10500613,
+        "hHalf_SN": 0,
+        "triggerFrame": 26,
+        "triggerTime_SN": 4333,
+        "wHalf_SN": 0,
+        "x_SN": -45000,
+        "y_SN": 15200
+      },
+      {
+        "frameEventId": 10500613,
+        "hHalf_SN": 0,
+        "triggerFrame": 36,
+        "triggerTime_SN": 6000,
+        "wHalf_SN": 0,
+        "x_SN": -45000,
+        "y_SN": 15200
+      },
+      {
+        "frameEventId": 10500613,
+        "hHalf_SN": 0,
+        "triggerFrame": 53,
+        "triggerTime_SN": 8833,
+        "wHalf_SN": 0,
+        "x_SN": -39000,
+        "y_SN": 16400
+      },
       {
         "frameEventId": 10500614,
         "hHalf_SN": 0,
@@ -68844,19 +68857,37 @@
         "y_SN": 0
       },
       {
-        "frameEventId": 10500035,
+        "frameEventId": 10500612,
         "hHalf_SN": 0,
-        "triggerFrame": 65,
-        "triggerTime_SN": 10833,
+        "triggerFrame": 50,
+        "triggerTime_SN": 8333,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
       },
       {
-        "frameEventId": 10500612,
+        "frameEventId": 10501821,
         "hHalf_SN": 0,
-        "triggerFrame": 65,
-        "triggerTime_SN": 10833,
+        "triggerFrame": 50,
+        "triggerTime_SN": 8333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501242,
+        "hHalf_SN": 0,
+        "triggerFrame": 50,
+        "triggerTime_SN": 8333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501820,
+        "hHalf_SN": 0,
+        "triggerFrame": 50,
+        "triggerTime_SN": 8333,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
@@ -68864,92 +68895,20 @@
       {
         "frameEventId": 10500617,
         "hHalf_SN": 0,
-        "triggerFrame": 83,
-        "triggerTime_SN": 13833,
+        "triggerFrame": 60,
+        "triggerTime_SN": 10000,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
       },
       {
-        "frameEventId": 10500612,
+        "frameEventId": 10500035,
         "hHalf_SN": 0,
-        "triggerFrame": 83,
-        "triggerTime_SN": 13833,
+        "triggerFrame": 60,
+        "triggerTime_SN": 10000,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
-      },
-      {
-        "frameEventId": 10500612,
-        "hHalf_SN": 0,
-        "triggerFrame": 97,
-        "triggerTime_SN": 16167,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      },
-      {
-        "frameEventId": 10500612,
-        "hHalf_SN": 0,
-        "triggerFrame": 117,
-        "triggerTime_SN": 19500,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      },
-      {
-        "frameEventId": 10500612,
-        "hHalf_SN": 0,
-        "triggerFrame": 130,
-        "triggerTime_SN": 21667,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      },
-      {
-        "frameEventId": 10500612,
-        "hHalf_SN": 0,
-        "triggerFrame": 155,
-        "triggerTime_SN": 25833,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      },
-      {
-        "frameEventId": 10500612,
-        "hHalf_SN": 0,
-        "triggerFrame": 177,
-        "triggerTime_SN": 29500,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      },
-      {
-        "frameEventId": 10500613,
-        "hHalf_SN": 0,
-        "triggerFrame": 170,
-        "triggerTime_SN": 28333,
-        "wHalf_SN": 0,
-        "x_SN": -45000,
-        "y_SN": 15200
-      },
-      {
-        "frameEventId": 10500613,
-        "hHalf_SN": 0,
-        "triggerFrame": 180,
-        "triggerTime_SN": 30000,
-        "wHalf_SN": 0,
-        "x_SN": -45000,
-        "y_SN": 15200
-      },
-      {
-        "frameEventId": 10500613,
-        "hHalf_SN": 0,
-        "triggerFrame": 197,
-        "triggerTime_SN": 32833,
-        "wHalf_SN": 0,
-        "x_SN": -39000,
-        "y_SN": 16400
       }
     ],
     "effectList": [
@@ -68957,47 +68916,32 @@
         "effectId": 11104944,
         "offsetX": 0.0,
         "offsetY": 1.5,
-        "triggerFrame": 40,
-        "triggerTime_SN": 6667
+        "triggerFrame": 24,
+        "triggerTime_SN": 4000
       },
       {
         "effectId": 11105283,
         "offsetX": -3.5,
         "offsetY": 0.0,
-        "triggerFrame": 170,
-        "triggerTime_SN": 28333
+        "triggerFrame": 26,
+        "triggerTime_SN": 4333
       }
     ],
     "soundList": [
       {
-        "soundId": 30002755,
-        "triggerFrame": 45,
-        "triggerTime_SN": 7500
-      },
-      {
         "soundId": 30002756,
-        "triggerFrame": 150,
-        "triggerTime_SN": 25000
-      },
-      {
-        "soundId": 30002757,
-        "triggerFrame": 70,
-        "triggerTime_SN": 11667
-      },
-      {
-        "soundId": 30002758,
-        "triggerFrame": 145,
-        "triggerTime_SN": 24167
-      },
-      {
-        "soundId": 30002759,
-        "triggerFrame": 120,
-        "triggerTime_SN": 20000
+        "triggerFrame": 6,
+        "triggerTime_SN": 1000
       },
       {
         "soundId": 30002760,
         "triggerFrame": 40,
         "triggerTime_SN": 6667
+      },
+      {
+        "soundId": 30002755,
+        "triggerFrame": 45,
+        "triggerTime_SN": 7500
       }
     ],
     "isYChange": false,
@@ -72068,6 +72012,9 @@
     ],
     "soundList": [
       {
+        "soundId": 30005010
+      },
+      {
         "soundId": 30002393,
         "triggerFrame": 1,
         "triggerTime_SN": 5000
@@ -74589,11 +74536,20 @@
         "y_SN": 0
       },
       {
-        "frameEventId": 10500318,
+        "frameEventId": 10502132,
         "hHalf_SN": 10000,
         "triggerFrame": 84,
         "triggerTime_SN": 14000,
         "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500318,
+        "hHalf_SN": 0,
+        "triggerFrame": 84,
+        "triggerTime_SN": 14000,
+        "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
       }
@@ -83998,6 +83954,9 @@
     ],
     "soundList": [
       {
+        "soundId": 30005009
+      },
+      {
         "soundId": 30002192,
         "triggerFrame": 1,
         "triggerTime_SN": 0
@@ -86703,6 +86662,9 @@
     ],
     "soundList": [
       {
+        "soundId": 30002579
+      },
+      {
         "soundId": 30002030,
         "triggerFrame": 20,
         "triggerTime_SN": 3333
@@ -88465,7 +88427,11 @@
     "frameChanged": false,
     "frameEventList": [],
     "effectList": [],
-    "soundList": [],
+    "soundList": [
+      {
+        "soundId": 30002579
+      }
+    ],
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
@@ -90922,15 +90888,6 @@
         "wHalf_SN": 20000,
         "x_SN": 20000,
         "y_SN": 10000
-      },
-      {
-        "frameEventId": 10501821,
-        "hHalf_SN": 0,
-        "triggerFrame": 44,
-        "triggerTime_SN": 7333,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
       }
     ],
     "effectList": [
@@ -90976,7 +90933,7 @@
   },
   {
     "id": 10201374,
-    "idCN": "我方/05五星/索玛/bsB-1",
+    "idCN": "我方/05五星/索玛/bsB",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
@@ -91005,15 +90962,6 @@
         "wHalf_SN": 40000,
         "x_SN": 40000,
         "y_SN": 10000
-      },
-      {
-        "frameEventId": 10501242,
-        "hHalf_SN": 0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 0,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
       }
     ],
     "effectList": [
@@ -91095,7 +91043,7 @@
   },
   {
     "id": 10201375,
-    "idCN": "我方/05五星/索玛/B-0",
+    "idCN": "我方/05五星/索玛/S-0",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
@@ -91167,7 +91115,7 @@
   },
   {
     "id": 10201376,
-    "idCN": "我方/05五星/索玛/S0",
+    "idCN": "我方/05五星/索玛/S-1_00",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "SpecialSkill",
@@ -91237,7 +91185,7 @@
   },
   {
     "id": 10201377,
-    "idCN": "我方/05五星/索玛/S1",
+    "idCN": "我方/05五星/索玛/S-1_01",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "SpecialSkill",
@@ -91645,15 +91593,6 @@
         "wHalf_SN": 40000,
         "x_SN": 40000,
         "y_SN": 10000
-      },
-      {
-        "frameEventId": 10501242,
-        "hHalf_SN": 0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 0,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
       }
     ],
     "effectList": [
@@ -91699,7 +91638,7 @@
   },
   {
     "id": 10201393,
-    "idCN": "我方/05五星/索玛/bsS0",
+    "idCN": "我方/05五星/索玛/bsS-1_00",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
@@ -91767,7 +91706,7 @@
   },
   {
     "id": 10201394,
-    "idCN": "我方/05五星/索玛/bsS1",
+    "idCN": "我方/05五星/索玛/bsS-1_01",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
@@ -97305,6 +97244,11 @@
         "soundId": 30004629,
         "triggerFrame": 1,
         "triggerTime_SN": 0
+      },
+      {
+        "soundId": 30004630,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
       }
     ],
     "isYChange": false,
@@ -101251,8 +101195,8 @@
       },
       {
         "soundId": 30004648,
-        "triggerFrame": 75,
-        "triggerTime_SN": 12500
+        "triggerFrame": 51,
+        "triggerTime_SN": 8500
       }
     ],
     "isYChange": false,
@@ -120216,7 +120160,7 @@
     ],
     "soundList": [
       {
-        "soundId": 30004568,
+        "soundId": 30004567,
         "triggerFrame": 1,
         "triggerTime_SN": 0
       }
@@ -120278,7 +120222,7 @@
     ],
     "soundList": [
       {
-        "soundId": 30004570,
+        "soundId": 30004569,
         "triggerFrame": 1,
         "triggerTime_SN": 0
       }
@@ -121499,29 +121443,20 @@
   },
   {
     "id": 10202790,
-    "idCN": "我方/05五星/马吉拉/S2黑洞持续",
+    "idCN": "我方/05五星/马吉拉/S2",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "SpecialSkill",
     "viewId": 11000049,
     "aniName": "skill_03_02",
-    "isLoop": true,
-    "aniTime_SN": 13333,
-    "totalFrame": 80,
-    "customFrameTag": "actionTime",
+    "isLoop": false,
+    "aniTime_SN": 6667,
+    "totalFrame": 40,
+    "customFrameTag": "",
     "frameChanged": true,
     "frameEventList": [
       {
         "frameEventId": 10500233,
-        "hHalf_SN": 0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 0,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      },
-      {
-        "frameEventId": 10500346,
         "hHalf_SN": 0,
         "triggerFrame": 1,
         "triggerTime_SN": 0,
@@ -121562,17 +121497,7 @@
     "totalFrame": 52,
     "customFrameTag": "",
     "frameChanged": false,
-    "frameEventList": [
-      {
-        "frameEventId": 10501060,
-        "hHalf_SN": 0,
-        "triggerFrame": 50,
-        "triggerTime_SN": 8333,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      }
-    ],
+    "frameEventList": [],
     "effectList": [],
     "soundList": [],
     "isYChange": false,
@@ -132610,78 +132535,6 @@
     "sortingOrder": 0
   },
   {
-    "id": 10202944,
-    "idCN": "我方/05五星/索玛/B-0共振1",
-    "mod": "基础状态",
-    "isInformalData": false,
-    "actionLevel": "NormalSkill",
-    "viewId": 11000014,
-    "aniName": "skill_02",
-    "isLoop": false,
-    "aniTime_SN": 22167,
-    "totalFrame": 133,
-    "customFrameTag": "",
-    "frameChanged": false,
-    "frameEventList": [
-      {
-        "frameEventId": 10500302,
-        "hHalf_SN": 0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 0,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      },
-      {
-        "frameEventId": 10501820,
-        "hHalf_SN": 0,
-        "triggerFrame": 40,
-        "triggerTime_SN": 6667,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      }
-    ],
-    "effectList": [
-      {
-        "effectId": 11100114
-      },
-      {
-        "effectId": 11100195,
-        "offsetX": 0.0,
-        "offsetY": 0.0,
-        "triggerFrame": 40,
-        "triggerTime_SN": 6667
-      },
-      {
-        "effectId": 11100198,
-        "offsetX": 0.0,
-        "offsetY": 0.0,
-        "triggerFrame": 40,
-        "triggerTime_SN": 6667
-      },
-      {
-        "effectId": 11104057,
-        "offsetX": 0.0,
-        "offsetY": 0.0,
-        "triggerFrame": 40,
-        "triggerTime_SN": 6667
-      }
-    ],
-    "soundList": [
-      {
-        "soundId": 30003460
-      }
-    ],
-    "isYChange": false,
-    "offsetYList": [],
-    "speed_SN": 0,
-    "speedY_SN": 0,
-    "keyFrameList": [],
-    "isSetSortingOrder": false,
-    "sortingOrder": 0
-  },
-  {
     "id": 10203010,
     "idCN": "敌方/试炼场/沙包人/01自我/无敌",
     "mod": "基础状态",
@@ -137313,8 +137166,8 @@
       },
       {
         "soundId": 30004592,
-        "triggerFrame": 175,
-        "triggerTime_SN": 29167
+        "triggerFrame": 68,
+        "triggerTime_SN": 11333
       }
     ],
     "isYChange": false,
@@ -151210,11 +151063,25 @@
     ],
     "effectList": [
       {
-        "effectId": 11101529,
-        "offsetX": -0.74,
-        "offsetY": 1.8,
-        "triggerFrame": 2,
-        "triggerTime_SN": 0
+        "effectId": 11105633,
+        "offsetX": 2.3,
+        "offsetY": 1.85,
+        "triggerFrame": 55,
+        "triggerTime_SN": 9167
+      },
+      {
+        "effectId": 11105634,
+        "offsetX": 1.9,
+        "offsetY": 2.3,
+        "triggerFrame": 115,
+        "triggerTime_SN": 19167
+      },
+      {
+        "effectId": 11105635,
+        "offsetX": 1.8,
+        "offsetY": 2.8,
+        "triggerFrame": 121,
+        "triggerTime_SN": 22000
       }
     ],
     "soundList": [],
@@ -151252,8 +151119,8 @@
       {
         "frameEventId": 10502080,
         "hHalf_SN": 0,
-        "triggerFrame": 126,
-        "triggerTime_SN": 21000,
+        "triggerFrame": 90,
+        "triggerTime_SN": 15000,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
@@ -151261,11 +151128,11 @@
     ],
     "effectList": [
       {
-        "effectId": 11101529,
-        "offsetX": -0.74,
-        "offsetY": 1.8,
-        "triggerFrame": 2,
-        "triggerTime_SN": 0
+        "effectId": 11105583,
+        "offsetX": 0.0,
+        "offsetY": 1.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 167
       }
     ],
     "soundList": [],
@@ -151531,7 +151398,15 @@
         "y_SN": 300000
       }
     ],
-    "effectList": [],
+    "effectList": [
+      {
+        "effectId": 11105585,
+        "offsetX": 0.2,
+        "offsetY": 3.0,
+        "triggerFrame": 35,
+        "triggerTime_SN": 5833
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -151558,8 +151433,8 @@
       {
         "frameEventId": 10502086,
         "hHalf_SN": 0,
-        "triggerFrame": 19,
-        "triggerTime_SN": 3167,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
@@ -151764,7 +151639,15 @@
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [],
-    "effectList": [],
+    "effectList": [
+      {
+        "effectId": 11105582,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -151884,7 +151767,15 @@
     "customFrameTag": "",
     "frameChanged": true,
     "frameEventList": [],
-    "effectList": [],
+    "effectList": [
+      {
+        "effectId": 11105632,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -151939,21 +151830,13 @@
         "frameEventId": 10502095,
         "hHalf_SN": 0,
         "triggerFrame": 1,
-        "triggerTime_SN": 0,
+        "triggerTime_SN": 167,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
       }
     ],
-    "effectList": [
-      {
-        "effectId": 11101529,
-        "offsetX": -0.74,
-        "offsetY": 1.8,
-        "triggerFrame": 2,
-        "triggerTime_SN": 0
-      }
-    ],
+    "effectList": [],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -152040,6 +151923,15 @@
         "hHalf_SN": 0,
         "triggerFrame": 10,
         "triggerTime_SN": 1667,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502124,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
@@ -152136,44 +152028,8 @@
     "totalFrame": 60,
     "customFrameTag": "",
     "frameChanged": false,
-    "frameEventList": [
-      {
-        "frameEventId": 10502094,
-        "hHalf_SN": 0,
-        "triggerFrame": 20,
-        "triggerTime_SN": 3333,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      },
-      {
-        "frameEventId": 10502099,
-        "hHalf_SN": 0,
-        "triggerFrame": 20,
-        "triggerTime_SN": 3333,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      },
-      {
-        "frameEventId": 10502093,
-        "hHalf_SN": 20000,
-        "triggerFrame": 20,
-        "triggerTime_SN": 3333,
-        "wHalf_SN": 240000,
-        "x_SN": 0,
-        "y_SN": 20000
-      }
-    ],
-    "effectList": [
-      {
-        "effectId": 11101282,
-        "offsetX": -8.1,
-        "offsetY": 0.0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 167
-      }
-    ],
+    "frameEventList": [],
+    "effectList": [],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -153024,6 +152880,3738 @@
       }
     ],
     "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203439,
+    "idCN": "爬塔/桦树生物/裂首骨龙/头2技能4",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000267,
+    "aniName": "skill_04",
+    "isLoop": false,
+    "aniTime_SN": 50000,
+    "totalFrame": 300,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501993,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502098,
+        "hHalf_SN": 40000,
+        "triggerFrame": 163,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 163,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 175,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 187,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 199,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 211,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 223,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501994,
+        "hHalf_SN": 0,
+        "triggerFrame": 299,
+        "triggerTime_SN": 50000,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11103195,
+        "offsetX": 2.0,
+        "offsetY": 2.0,
+        "triggerFrame": 86,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104577,
+        "offsetX": 2.0,
+        "offsetY": 2.0,
+        "triggerFrame": 86,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104578,
+        "offsetX": 2.29,
+        "offsetY": 1.83,
+        "triggerFrame": 158,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104579,
+        "offsetX": 2.29,
+        "offsetY": 1.83,
+        "triggerFrame": 160,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104580,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 160,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100910,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 163,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002746,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "soundId": 30002573,
+        "triggerFrame": 163,
+        "triggerTime_SN": 27167
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203431,
+    "idCN": "爬塔/人形单位/鼹鼠重机/普攻",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000070,
+    "aniName": "attack_01",
+    "isLoop": false,
+    "aniTime_SN": 15000,
+    "totalFrame": 90,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500441,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502118,
+        "hHalf_SN": 20000,
+        "triggerFrame": 30,
+        "triggerTime_SN": 4842,
+        "wHalf_SN": 20000,
+        "x_SN": 100000,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502118,
+        "hHalf_SN": 20000,
+        "triggerFrame": 40,
+        "triggerTime_SN": 4842,
+        "wHalf_SN": 20000,
+        "x_SN": 100000,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502118,
+        "hHalf_SN": 20000,
+        "triggerFrame": 50,
+        "triggerTime_SN": 4842,
+        "wHalf_SN": 20000,
+        "x_SN": 100000,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100630,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000254,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203432,
+    "idCN": "爬塔/人形单位/鼹鼠重机/技能1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000070,
+    "aniName": "skill_01",
+    "isLoop": false,
+    "aniTime_SN": 57333,
+    "totalFrame": 344,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500395,
+        "hHalf_SN": 15000,
+        "triggerFrame": 240,
+        "triggerTime_SN": 41749,
+        "wHalf_SN": 40000,
+        "x_SN": 110000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10500395,
+        "hHalf_SN": 15000,
+        "triggerFrame": 245,
+        "triggerTime_SN": 41749,
+        "wHalf_SN": 40000,
+        "x_SN": 110000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10500395,
+        "hHalf_SN": 15000,
+        "triggerFrame": 250,
+        "triggerTime_SN": 41749,
+        "wHalf_SN": 40000,
+        "x_SN": 110000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10500395,
+        "hHalf_SN": 15000,
+        "triggerFrame": 255,
+        "triggerTime_SN": 41749,
+        "wHalf_SN": 40000,
+        "x_SN": 110000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10500395,
+        "hHalf_SN": 15000,
+        "triggerFrame": 260,
+        "triggerTime_SN": 43419,
+        "wHalf_SN": 40000,
+        "x_SN": 110000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10500395,
+        "hHalf_SN": 15000,
+        "triggerFrame": 265,
+        "triggerTime_SN": 41749,
+        "wHalf_SN": 40000,
+        "x_SN": 110000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10500395,
+        "hHalf_SN": 15000,
+        "triggerFrame": 270,
+        "triggerTime_SN": 45089,
+        "wHalf_SN": 40000,
+        "x_SN": 110000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10500395,
+        "hHalf_SN": 15000,
+        "triggerFrame": 275,
+        "triggerTime_SN": 46759,
+        "wHalf_SN": 40000,
+        "x_SN": 110000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10500395,
+        "hHalf_SN": 15000,
+        "triggerFrame": 280,
+        "triggerTime_SN": 46759,
+        "wHalf_SN": 40000,
+        "x_SN": 110000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10500395,
+        "hHalf_SN": 15000,
+        "triggerFrame": 285,
+        "triggerTime_SN": 46759,
+        "wHalf_SN": 40000,
+        "x_SN": 110000,
+        "y_SN": 15000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100631,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000244,
+        "triggerFrame": 1,
+        "triggerTime_SN": 6679
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203433,
+    "idCN": "爬塔/人形单位/鼹鼠重机/技能2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000070,
+    "aniName": "skill_02",
+    "isLoop": false,
+    "aniTime_SN": 21333,
+    "totalFrame": 128,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500396,
+        "hHalf_SN": 20000,
+        "triggerFrame": 5,
+        "triggerTime_SN": 3338,
+        "wHalf_SN": 15000,
+        "x_SN": 85000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10500396,
+        "hHalf_SN": 20000,
+        "triggerFrame": 12,
+        "triggerTime_SN": 3338,
+        "wHalf_SN": 30000,
+        "x_SN": 100000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10500396,
+        "hHalf_SN": 20000,
+        "triggerFrame": 20,
+        "triggerTime_SN": 3338,
+        "wHalf_SN": 40000,
+        "x_SN": 110000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10500396,
+        "hHalf_SN": 20000,
+        "triggerFrame": 28,
+        "triggerTime_SN": 4007,
+        "wHalf_SN": 50000,
+        "x_SN": 120000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10500396,
+        "hHalf_SN": 20000,
+        "triggerFrame": 36,
+        "triggerTime_SN": 6011,
+        "wHalf_SN": 65000,
+        "x_SN": 135000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10500396,
+        "hHalf_SN": 20000,
+        "triggerFrame": 44,
+        "triggerTime_SN": 6679,
+        "wHalf_SN": 77500,
+        "x_SN": 147500,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10500396,
+        "hHalf_SN": 20000,
+        "triggerFrame": 53,
+        "triggerTime_SN": 6679,
+        "wHalf_SN": 90000,
+        "x_SN": 160000,
+        "y_SN": 10000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100632,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100633,
+        "offsetX": 8.0,
+        "offsetY": 0.0,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000245,
+        "triggerFrame": 20,
+        "triggerTime_SN": 3338
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203434,
+    "idCN": "爬塔/人形单位/鼹鼠重机/技能3",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000070,
+    "aniName": "skill_03",
+    "isLoop": false,
+    "aniTime_SN": 21333,
+    "totalFrame": 128,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502122,
+        "hHalf_SN": 0,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6679,
+        "wHalf_SN": 0,
+        "x_SN": 30000,
+        "y_SN": 60000
+      },
+      {
+        "frameEventId": 10502122,
+        "hHalf_SN": 0,
+        "triggerFrame": 41,
+        "triggerTime_SN": 6679,
+        "wHalf_SN": 0,
+        "x_SN": 30000,
+        "y_SN": 60000
+      },
+      {
+        "frameEventId": 10502122,
+        "hHalf_SN": 0,
+        "triggerFrame": 42,
+        "triggerTime_SN": 6679,
+        "wHalf_SN": 0,
+        "x_SN": 30000,
+        "y_SN": 60000
+      }
+    ],
+    "effectList": [],
+    "soundList": [
+      {
+        "soundId": 30000246,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "soundId": 30000258,
+        "triggerFrame": 80,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203435,
+    "idCN": "爬塔/人形单位/鼹鼠重机/技能6",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000070,
+    "aniName": "skill_06",
+    "isLoop": false,
+    "aniTime_SN": 18666,
+    "totalFrame": 112,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502123,
+        "hHalf_SN": 50000,
+        "triggerFrame": 45,
+        "triggerTime_SN": 7514,
+        "wHalf_SN": 300000,
+        "x_SN": 0,
+        "y_SN": 15000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100650,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 35,
+        "triggerTime_SN": 5844
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000260,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203436,
+    "idCN": "爬塔/桦树生物/裂首骨龙/头1技能4-1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000267,
+    "aniName": "skill_04",
+    "isLoop": false,
+    "aniTime_SN": 50000,
+    "totalFrame": 300,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501993,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502098,
+        "hHalf_SN": 40000,
+        "triggerFrame": 163,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 163,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 175,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 187,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 199,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 211,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 223,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502051,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501994,
+        "hHalf_SN": 0,
+        "triggerFrame": 299,
+        "triggerTime_SN": 49833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11103195,
+        "offsetX": 2.0,
+        "offsetY": 2.0,
+        "triggerFrame": 86,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104577,
+        "offsetX": 2.0,
+        "offsetY": 2.0,
+        "triggerFrame": 86,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104578,
+        "offsetX": 2.29,
+        "offsetY": 1.83,
+        "triggerFrame": 158,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104579,
+        "offsetX": 2.29,
+        "offsetY": 1.83,
+        "triggerFrame": 160,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104580,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 160,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100910,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 163,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002746,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "soundId": 30002573,
+        "triggerFrame": 163,
+        "triggerTime_SN": 27167
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203437,
+    "idCN": "爬塔/桦树生物/裂首骨龙/头1技能4-2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000267,
+    "aniName": "stand",
+    "isLoop": false,
+    "aniTime_SN": 50099,
+    "totalFrame": 300,
+    "customFrameTag": "",
+    "frameChanged": true,
+    "frameEventList": [
+      {
+        "frameEventId": 10501993,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502126,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501994,
+        "hHalf_SN": 0,
+        "triggerFrame": 299,
+        "triggerTime_SN": 49833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203440,
+    "idCN": "爬塔/桦树生物/裂首骨龙/头1出场技能",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000267,
+    "aniName": "show",
+    "isLoop": false,
+    "aniTime_SN": 50000,
+    "totalFrame": 300,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501585,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502128,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501598,
+        "hHalf_SN": 0,
+        "triggerFrame": 290,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501606,
+        "hHalf_SN": 0,
+        "triggerFrame": 290,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501615,
+        "hHalf_SN": 0,
+        "triggerFrame": 290,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11104454,
+        "offsetX": 1.29,
+        "offsetY": 6.57,
+        "triggerFrame": 185,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11103672,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 185,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002569,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203438,
+    "idCN": "爬塔/桦树生物/裂首骨龙/头1技能4-3",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000267,
+    "aniName": "skill_04",
+    "isLoop": false,
+    "aniTime_SN": 50000,
+    "totalFrame": 300,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501993,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502098,
+        "hHalf_SN": 40000,
+        "triggerFrame": 163,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 163,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 175,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 187,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 199,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 211,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 223,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502126,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501994,
+        "hHalf_SN": 0,
+        "triggerFrame": 299,
+        "triggerTime_SN": 49833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11103195,
+        "offsetX": 2.0,
+        "offsetY": 2.0,
+        "triggerFrame": 86,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104577,
+        "offsetX": 2.0,
+        "offsetY": 2.0,
+        "triggerFrame": 86,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104578,
+        "offsetX": 2.29,
+        "offsetY": 1.83,
+        "triggerFrame": 158,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104579,
+        "offsetX": 2.29,
+        "offsetY": 1.83,
+        "triggerFrame": 160,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104580,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 160,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100910,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 163,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002746,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "soundId": 30002573,
+        "triggerFrame": 163,
+        "triggerTime_SN": 27167
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203456,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-尾/出场技能",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000268,
+    "aniName": "show",
+    "isLoop": false,
+    "aniTime_SN": 50000,
+    "totalFrame": 300,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501588,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203457,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-尾/技能2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000268,
+    "aniName": "skill_02",
+    "isLoop": false,
+    "aniTime_SN": 20000,
+    "totalFrame": 120,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203458,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-尾/技能4",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000268,
+    "aniName": "skill_04",
+    "isLoop": false,
+    "aniTime_SN": 50000,
+    "totalFrame": 300,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203459,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-尾/普攻2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000268,
+    "aniName": "attack_02",
+    "isLoop": false,
+    "aniTime_SN": 40000,
+    "totalFrame": 240,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203461,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-尾/站立",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Stand",
+    "viewId": 11000268,
+    "aniName": "stand",
+    "isLoop": false,
+    "aniTime_SN": 40000,
+    "totalFrame": 240,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203460,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-尾/死亡",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000268,
+    "aniName": "dead",
+    "isLoop": false,
+    "aniTime_SN": 20000,
+    "totalFrame": 120,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [
+      {
+        "effectId": 11105631,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10200407,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头/被动1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000267,
+    "aniName": "skill_05",
+    "isLoop": false,
+    "aniTime_SN": 30000,
+    "totalFrame": 180,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501597,
+        "hHalf_SN": 240000,
+        "triggerFrame": 74,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501960,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11104473,
+        "offsetX": 2.17,
+        "offsetY": 5.43,
+        "triggerFrame": 64,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002574,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203441,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头/被动2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000267,
+    "aniName": "skill_06",
+    "isLoop": false,
+    "aniTime_SN": 30000,
+    "totalFrame": 180,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501608,
+        "hHalf_SN": 0,
+        "triggerFrame": 63,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501607,
+        "hHalf_SN": 0,
+        "triggerFrame": 64,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501964,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [],
+    "soundList": [
+      {
+        "soundId": 30002575,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203442,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头/被动3",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000267,
+    "aniName": "skill_07",
+    "isLoop": false,
+    "aniTime_SN": 30000,
+    "totalFrame": 180,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501612,
+        "hHalf_SN": 0,
+        "triggerFrame": 126,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501965,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11104571,
+        "offsetX": -0.16,
+        "offsetY": 5.18,
+        "triggerFrame": 46,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104572,
+        "offsetX": 8.14,
+        "offsetY": 0.43,
+        "triggerFrame": 52,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104573,
+        "offsetX": 0.3,
+        "offsetY": 5.03,
+        "triggerFrame": 124,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100236,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 126,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002576,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203443,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头/出场技能",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000267,
+    "aniName": "show",
+    "isLoop": false,
+    "aniTime_SN": 50000,
+    "totalFrame": 300,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501585,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501598,
+        "hHalf_SN": 0,
+        "triggerFrame": 290,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501606,
+        "hHalf_SN": 0,
+        "triggerFrame": 290,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501615,
+        "hHalf_SN": 0,
+        "triggerFrame": 290,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11104454,
+        "offsetX": 1.29,
+        "offsetY": 6.57,
+        "triggerFrame": 185,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11103672,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 185,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002569,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203444,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头/昏迷",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000267,
+    "aniName": "stun",
+    "isLoop": false,
+    "aniTime_SN": 40000,
+    "totalFrame": 240,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203445,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头/技能1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000267,
+    "aniName": "skill_01",
+    "isLoop": false,
+    "aniTime_SN": 20000,
+    "totalFrame": 120,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501592,
+        "hHalf_SN": 0,
+        "triggerFrame": 55,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11104459,
+        "offsetX": 2.05,
+        "offsetY": 2.85,
+        "triggerFrame": 45,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101118,
+        "offsetX": 2.05,
+        "offsetY": 2.85,
+        "triggerFrame": 45,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002570,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203446,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头/技能2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000267,
+    "aniName": "skill_02",
+    "isLoop": false,
+    "aniTime_SN": 20000,
+    "totalFrame": 120,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501594,
+        "hHalf_SN": 0,
+        "triggerFrame": 60,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11104464,
+        "offsetX": 0.0,
+        "offsetY": 6.45,
+        "triggerFrame": 40,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104463,
+        "offsetX": 0.84,
+        "offsetY": 5.86,
+        "triggerFrame": 40,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002571,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203447,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头/技能3",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000267,
+    "aniName": "skill_03",
+    "isLoop": false,
+    "aniTime_SN": 40000,
+    "totalFrame": 240,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500668,
+        "hHalf_SN": 40000,
+        "triggerFrame": 98,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 20000,
+        "x_SN": 60000,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501595,
+        "hHalf_SN": 40000,
+        "triggerFrame": 138,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 40000,
+        "x_SN": 80000,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501596,
+        "hHalf_SN": 40000,
+        "triggerFrame": 210,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 60000,
+        "x_SN": 100000,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11104466,
+        "offsetX": 2.3,
+        "offsetY": 2.2,
+        "triggerFrame": 31,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104467,
+        "offsetX": 3.63,
+        "offsetY": 2.49,
+        "triggerFrame": 55,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104472,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 73,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104468,
+        "offsetX": 3.5,
+        "offsetY": 3.8,
+        "triggerFrame": 95,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104471,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 113,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104469,
+        "offsetX": 2.6,
+        "offsetY": 5.3,
+        "triggerFrame": 137,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104470,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 155,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100240,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 98,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100259,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 138,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100885,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 210,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002572,
+        "triggerFrame": 56,
+        "triggerTime_SN": 9333
+      },
+      {
+        "soundId": 30002572,
+        "triggerFrame": 99,
+        "triggerTime_SN": 16500
+      },
+      {
+        "soundId": 30002572,
+        "triggerFrame": 140,
+        "triggerTime_SN": 23333
+      },
+      {
+        "soundId": 30002740,
+        "triggerFrame": 55,
+        "triggerTime_SN": 9167
+      },
+      {
+        "soundId": 30002741,
+        "triggerFrame": 100,
+        "triggerTime_SN": 16667
+      },
+      {
+        "soundId": 30002742,
+        "triggerFrame": 139,
+        "triggerTime_SN": 23167
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203448,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头/技能4",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000267,
+    "aniName": "skill_04",
+    "isLoop": false,
+    "aniTime_SN": 50000,
+    "totalFrame": 300,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501613,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500637,
+        "hHalf_SN": 40000,
+        "triggerFrame": 163,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 163,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 193,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501614,
+        "hHalf_SN": 40000,
+        "triggerFrame": 223,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11103195,
+        "offsetX": 2.0,
+        "offsetY": 2.0,
+        "triggerFrame": 86,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104577,
+        "offsetX": 2.0,
+        "offsetY": 2.0,
+        "triggerFrame": 86,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104578,
+        "offsetX": 2.29,
+        "offsetY": 1.83,
+        "triggerFrame": 158,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104579,
+        "offsetX": 2.29,
+        "offsetY": 1.83,
+        "triggerFrame": 160,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104580,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 160,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100910,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 163,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002746,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "soundId": 30002573,
+        "triggerFrame": 163,
+        "triggerTime_SN": 27167
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203449,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头/普攻1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000267,
+    "aniName": "attack_01",
+    "isLoop": false,
+    "aniTime_SN": 15000,
+    "totalFrame": 90,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501586,
+        "hHalf_SN": 30000,
+        "triggerFrame": 48,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 40000,
+        "x_SN": 70000,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11104360,
+        "offsetX": 2.64,
+        "offsetY": 1.66,
+        "triggerFrame": 17,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104361,
+        "offsetX": 1.54,
+        "offsetY": 2.7,
+        "triggerFrame": 37,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104362,
+        "offsetX": 2.2,
+        "offsetY": 2.94,
+        "triggerFrame": 37,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002544,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203450,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头/普攻2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000267,
+    "aniName": "attack_02",
+    "isLoop": false,
+    "aniTime_SN": 15000,
+    "totalFrame": 90,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501589,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501590,
+        "hHalf_SN": 30000,
+        "triggerFrame": 62,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 20000,
+        "x_SN": 50000,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501590,
+        "hHalf_SN": 30000,
+        "triggerFrame": 65,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 20000,
+        "x_SN": 90000,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501590,
+        "hHalf_SN": 30000,
+        "triggerFrame": 68,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 20000,
+        "x_SN": 130000,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11104455,
+        "offsetX": 4.49,
+        "offsetY": 3.44,
+        "triggerFrame": 54,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104458,
+        "offsetX": 2.87,
+        "offsetY": 2.68,
+        "triggerFrame": 35,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104456,
+        "offsetX": 0.0,
+        "offsetY": 2.68,
+        "triggerFrame": 62,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002568,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203451,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头/受击1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Hit",
+    "viewId": 11000267,
+    "aniName": "injure_01",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203452,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头/受击2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Hit",
+    "viewId": 11000267,
+    "aniName": "injure_02",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203453,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头/死亡",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000267,
+    "aniName": "dead",
+    "isLoop": false,
+    "aniTime_SN": 20000,
+    "totalFrame": 120,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501610,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501622,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11105630,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 14,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30003005,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203454,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头/移动",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Move",
+    "viewId": 11000267,
+    "aniName": "run",
+    "isLoop": false,
+    "aniTime_SN": 40000,
+    "totalFrame": 240,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203455,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头/站立",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Stand",
+    "viewId": 11000267,
+    "aniName": "stand",
+    "isLoop": false,
+    "aniTime_SN": 40000,
+    "totalFrame": 240,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203462,
+    "idCN": "爬塔/桦树生物/尘鸣游鳞/技能2_3",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000246,
+    "aniName": "skill_02_03",
+    "isLoop": false,
+    "aniTime_SN": 10000,
+    "totalFrame": 60,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501683,
+        "hHalf_SN": 0,
+        "triggerFrame": 50,
+        "triggerTime_SN": 8333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203463,
+    "idCN": "爬塔/人形单位/荒原王/普攻",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000102,
+    "aniName": "attack_01",
+    "isLoop": false,
+    "aniTime_SN": 11666,
+    "totalFrame": 70,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502130,
+        "hHalf_SN": 20000,
+        "triggerFrame": 34,
+        "triggerTime_SN": 6000,
+        "wHalf_SN": 20000,
+        "x_SN": 40000,
+        "y_SN": 10000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11101243,
+        "offsetX": 2.31,
+        "offsetY": 2.34,
+        "triggerFrame": 32,
+        "triggerTime_SN": 7180
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000629,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203464,
+    "idCN": "爬塔/人形单位/荒原王/普攻2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000102,
+    "aniName": "attack_02",
+    "isLoop": false,
+    "aniTime_SN": 11666,
+    "totalFrame": 70,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502131,
+        "hHalf_SN": 20000,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5167,
+        "wHalf_SN": 30000,
+        "x_SN": 50000,
+        "y_SN": 10000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11101245,
+        "offsetX": 2.81,
+        "offsetY": 2.59,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000629,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203472,
+    "idCN": "爬塔/机械单位/金子小姐/技能2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000184,
+    "aniName": "skill_02",
+    "isLoop": false,
+    "aniTime_SN": 55000,
+    "totalFrame": 330,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501587,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501468,
+        "hHalf_SN": 15000,
+        "triggerFrame": 65,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 120000,
+        "x_SN": 120000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10501469,
+        "hHalf_SN": 0,
+        "triggerFrame": 65,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501469,
+        "hHalf_SN": 0,
+        "triggerFrame": 65,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501470,
+        "hHalf_SN": 0,
+        "triggerFrame": 260,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500069,
+        "hHalf_SN": 0,
+        "triggerFrame": 329,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11103478,
+        "offsetX": 1.5,
+        "offsetY": 1.8,
+        "triggerFrame": 62,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11103479,
+        "offsetX": 1.0,
+        "offsetY": 2.4,
+        "triggerFrame": 260,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000814,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203471,
+    "idCN": "我方/05五星/索玛/衔接_狂暴姿态结束",
+    "mod": "过渡状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000014,
+    "aniName": "BS_return",
+    "isLoop": false,
+    "aniTime_SN": 15167,
+    "totalFrame": 91,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0,
+    "previousActionList": [
+      {
+        "actionID": 10101239
+      },
+      {
+        "actionID": 10101143
+      },
+      {
+        "actionID": 10102634
+      },
+      {
+        "actionID": 10101240
+      },
+      {
+        "actionID": 10101245
+      },
+      {
+        "actionID": 10101238
+      },
+      {
+        "actionID": 10102589
+      },
+      {
+        "actionID": 10101241
+      },
+      {
+        "actionID": 10101242
+      },
+      {
+        "actionID": 10101243
+      },
+      {
+        "actionID": 10101246
+      },
+      {
+        "actionID": 10103043
+      }
+    ]
+  },
+  {
+    "id": 10202944,
+    "idCN": "我方/05五星/索玛/B",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000014,
+    "aniName": "BS_skill_02",
+    "isLoop": false,
+    "aniTime_SN": 15833,
+    "totalFrame": 95,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500182,
+        "hHalf_SN": 0,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501784,
+        "hHalf_SN": 10000,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000,
+        "wHalf_SN": 40000,
+        "x_SN": 40000,
+        "y_SN": 10000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100114
+      },
+      {
+        "effectId": 11104058
+      },
+      {
+        "effectId": 11101340,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 10,
+        "triggerTime_SN": 1667
+      },
+      {
+        "effectId": 11104059,
+        "offsetX": 1.0,
+        "offsetY": 0.0,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167
+      },
+      {
+        "effectId": 11100215,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167
+      },
+      {
+        "effectId": 11100216,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167
+      },
+      {
+        "effectId": 11104062,
+        "offsetX": 2.2,
+        "offsetY": 1.3,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167
+      },
+      {
+        "effectId": 11104061,
+        "offsetX": 2.2,
+        "offsetY": 1.6,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167
+      },
+      {
+        "effectId": 11105375,
+        "offsetX": 2.2,
+        "offsetY": 1.6,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167
+      },
+      {
+        "effectId": 11104056,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30003257
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203477,
+    "idCN": "我方/05五星/索玛/bsS-0",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000014,
+    "aniName": "skill_02",
+    "isLoop": false,
+    "aniTime_SN": 22167,
+    "totalFrame": 133,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500302,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500450,
+        "hHalf_SN": 0,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100114
+      },
+      {
+        "effectId": 11100195,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667
+      },
+      {
+        "effectId": 11100198,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667
+      },
+      {
+        "effectId": 11104057,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30003460
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203478,
+    "idCN": "我方/05五星/索玛/bs移动",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Move",
+    "viewId": 11000014,
+    "aniName": "run",
+    "isLoop": false,
+    "aniTime_SN": 10833,
+    "totalFrame": 65,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 1000,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203483,
+    "idCN": "我方/05五星/亚莉奈/S1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000144,
+    "aniName": "skill_03",
+    "isLoop": false,
+    "aniTime_SN": 53500,
+    "totalFrame": 321,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500614,
+        "hHalf_SN": 0,
+        "triggerFrame": 50,
+        "triggerTime_SN": 8333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500035,
+        "hHalf_SN": 0,
+        "triggerFrame": 65,
+        "triggerTime_SN": 10833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501822,
+        "hHalf_SN": 0,
+        "triggerFrame": 65,
+        "triggerTime_SN": 10833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500617,
+        "hHalf_SN": 0,
+        "triggerFrame": 83,
+        "triggerTime_SN": 13833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501822,
+        "hHalf_SN": 0,
+        "triggerFrame": 83,
+        "triggerTime_SN": 13833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501822,
+        "hHalf_SN": 0,
+        "triggerFrame": 97,
+        "triggerTime_SN": 16167,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501822,
+        "hHalf_SN": 0,
+        "triggerFrame": 117,
+        "triggerTime_SN": 19500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501822,
+        "hHalf_SN": 0,
+        "triggerFrame": 130,
+        "triggerTime_SN": 21667,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501822,
+        "hHalf_SN": 0,
+        "triggerFrame": 155,
+        "triggerTime_SN": 25833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501822,
+        "hHalf_SN": 0,
+        "triggerFrame": 177,
+        "triggerTime_SN": 29500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500613,
+        "hHalf_SN": 0,
+        "triggerFrame": 170,
+        "triggerTime_SN": 28333,
+        "wHalf_SN": 0,
+        "x_SN": -45000,
+        "y_SN": 15200
+      },
+      {
+        "frameEventId": 10500613,
+        "hHalf_SN": 0,
+        "triggerFrame": 180,
+        "triggerTime_SN": 30000,
+        "wHalf_SN": 0,
+        "x_SN": -45000,
+        "y_SN": 15200
+      },
+      {
+        "frameEventId": 10500613,
+        "hHalf_SN": 0,
+        "triggerFrame": 197,
+        "triggerTime_SN": 32833,
+        "wHalf_SN": 0,
+        "x_SN": -39000,
+        "y_SN": 16400
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11104944,
+        "offsetX": 0.0,
+        "offsetY": 1.5,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667
+      },
+      {
+        "effectId": 11105283,
+        "offsetX": -3.5,
+        "offsetY": 0.0,
+        "triggerFrame": 170,
+        "triggerTime_SN": 28333
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002755,
+        "triggerFrame": 45,
+        "triggerTime_SN": 7500
+      },
+      {
+        "soundId": 30002756,
+        "triggerFrame": 150,
+        "triggerTime_SN": 25000
+      },
+      {
+        "soundId": 30002757,
+        "triggerFrame": 70,
+        "triggerTime_SN": 11667
+      },
+      {
+        "soundId": 30002758,
+        "triggerFrame": 145,
+        "triggerTime_SN": 24167
+      },
+      {
+        "soundId": 30002759,
+        "triggerFrame": 120,
+        "triggerTime_SN": 20000
+      },
+      {
+        "soundId": 30002760,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203482,
+    "idCN": "爬塔/机械单位/蝎型机械体/增幅3技能2状态3",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000046,
+    "aniName": "skill_02_03",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502134,
+        "hHalf_SN": 0,
+        "triggerFrame": 39,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [],
+    "soundList": [
+      {
+        "soundId": 30000591,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203481,
+    "idCN": "爬塔/机械单位/蝎型机械体/技能4-2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000046,
+    "aniName": "anime02_02",
+    "isLoop": false,
+    "aniTime_SN": 53333,
+    "totalFrame": 320,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 199,
+        "triggerTime_SN": 33167,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 219,
+        "triggerTime_SN": 36500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 179,
+        "triggerTime_SN": 29833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 189,
+        "triggerTime_SN": 31500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 209,
+        "triggerTime_SN": 34833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 155,
+        "triggerTime_SN": 25833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 165,
+        "triggerTime_SN": 27500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 170,
+        "triggerTime_SN": 28333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 195,
+        "triggerTime_SN": 32500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 204,
+        "triggerTime_SN": 34000,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 185,
+        "triggerTime_SN": 30833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500955,
+        "hHalf_SN": 20000,
+        "triggerFrame": 162,
+        "triggerTime_SN": 27000,
+        "wHalf_SN": 20000,
+        "x_SN": 60000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10500955,
+        "hHalf_SN": 20000,
+        "triggerFrame": 168,
+        "triggerTime_SN": 28000,
+        "wHalf_SN": 20000,
+        "x_SN": 70000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10500955,
+        "hHalf_SN": 20000,
+        "triggerFrame": 174,
+        "triggerTime_SN": 29000,
+        "wHalf_SN": 20000,
+        "x_SN": 80000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10500955,
+        "hHalf_SN": 20000,
+        "triggerFrame": 180,
+        "triggerTime_SN": 30000,
+        "wHalf_SN": 20000,
+        "x_SN": 90000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10500955,
+        "hHalf_SN": 20000,
+        "triggerFrame": 186,
+        "triggerTime_SN": 31000,
+        "wHalf_SN": 20000,
+        "x_SN": 100000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10500955,
+        "hHalf_SN": 20000,
+        "triggerFrame": 192,
+        "triggerTime_SN": 32000,
+        "wHalf_SN": 20000,
+        "x_SN": 110000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10500955,
+        "hHalf_SN": 20000,
+        "triggerFrame": 198,
+        "triggerTime_SN": 33000,
+        "wHalf_SN": 20000,
+        "x_SN": 120000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10500955,
+        "hHalf_SN": 20000,
+        "triggerFrame": 204,
+        "triggerTime_SN": 34000,
+        "wHalf_SN": 20000,
+        "x_SN": 130000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10502134,
+        "hHalf_SN": 0,
+        "triggerFrame": 319,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100344,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100829,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 164,
+        "triggerTime_SN": 27333
+      },
+      {
+        "effectId": 11100115,
+        "offsetX": 6.0,
+        "offsetY": 0.0,
+        "triggerFrame": 160,
+        "triggerTime_SN": 26667
+      },
+      {
+        "effectId": 11100339,
+        "offsetX": 6.0,
+        "offsetY": 0.0,
+        "triggerFrame": 160,
+        "triggerTime_SN": 26667
+      },
+      {
+        "effectId": 11100115,
+        "offsetX": 7.0,
+        "offsetY": 0.0,
+        "triggerFrame": 166,
+        "triggerTime_SN": 27667
+      },
+      {
+        "effectId": 11100339,
+        "offsetX": 7.0,
+        "offsetY": 0.0,
+        "triggerFrame": 166,
+        "triggerTime_SN": 27667
+      },
+      {
+        "effectId": 11100115,
+        "offsetX": 8.0,
+        "offsetY": 0.0,
+        "triggerFrame": 172,
+        "triggerTime_SN": 28667
+      },
+      {
+        "effectId": 11100339,
+        "offsetX": 8.0,
+        "offsetY": 0.0,
+        "triggerFrame": 172,
+        "triggerTime_SN": 28667
+      },
+      {
+        "effectId": 11100115,
+        "offsetX": 9.0,
+        "offsetY": 0.0,
+        "triggerFrame": 178,
+        "triggerTime_SN": 29667
+      },
+      {
+        "effectId": 11100339,
+        "offsetX": 9.0,
+        "offsetY": 0.0,
+        "triggerFrame": 178,
+        "triggerTime_SN": 29667
+      },
+      {
+        "effectId": 11100115,
+        "offsetX": 10.0,
+        "offsetY": 0.0,
+        "triggerFrame": 184,
+        "triggerTime_SN": 30667
+      },
+      {
+        "effectId": 11100339,
+        "offsetX": 10.0,
+        "offsetY": 0.0,
+        "triggerFrame": 184,
+        "triggerTime_SN": 30667
+      },
+      {
+        "effectId": 11100116,
+        "offsetX": 11.0,
+        "offsetY": 0.0,
+        "triggerFrame": 190,
+        "triggerTime_SN": 31667
+      },
+      {
+        "effectId": 11100343,
+        "offsetX": 11.0,
+        "offsetY": 0.0,
+        "triggerFrame": 190,
+        "triggerTime_SN": 31667
+      },
+      {
+        "effectId": 11100115,
+        "offsetX": 12.0,
+        "offsetY": 0.0,
+        "triggerFrame": 196,
+        "triggerTime_SN": 32667
+      },
+      {
+        "effectId": 11100339,
+        "offsetX": 12.0,
+        "offsetY": 0.0,
+        "triggerFrame": 196,
+        "triggerTime_SN": 32667
+      },
+      {
+        "effectId": 11100116,
+        "offsetX": 13.0,
+        "offsetY": 0.0,
+        "triggerFrame": 202,
+        "triggerTime_SN": 33667
+      },
+      {
+        "effectId": 11100343,
+        "offsetX": 13.0,
+        "offsetY": 0.0,
+        "triggerFrame": 202,
+        "triggerTime_SN": 33667
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000014,
+        "triggerFrame": 130,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203480,
+    "idCN": "爬塔/机械单位/蝎型机械体/技能3不屈",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000046,
+    "aniName": "skill_01_02",
+    "isLoop": false,
+    "aniTime_SN": 40000,
+    "totalFrame": 240,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500202,
+        "hHalf_SN": 12100,
+        "triggerFrame": 125,
+        "triggerTime_SN": 20874,
+        "wHalf_SN": 50000,
+        "x_SN": 18500,
+        "y_SN": 11800
+      },
+      {
+        "frameEventId": 10502134,
+        "hHalf_SN": 0,
+        "triggerFrame": 239,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100321,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 125,
+        "triggerTime_SN": 20874
+      },
+      {
+        "effectId": 11101499,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 125,
+        "triggerTime_SN": 20833
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000577,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "soundId": 30000595,
+        "triggerFrame": 125,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203479,
+    "idCN": "爬塔/机械单位/蝎型机械体/技能1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000046,
+    "aniName": "skill_01_01",
+    "isLoop": false,
+    "aniTime_SN": 26666,
+    "totalFrame": 160,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500201,
+        "hHalf_SN": 10100,
+        "triggerFrame": 81,
+        "triggerTime_SN": 13526,
+        "wHalf_SN": 37500,
+        "x_SN": 26000,
+        "y_SN": 10100
+      },
+      {
+        "frameEventId": 10502134,
+        "hHalf_SN": 0,
+        "triggerFrame": 159,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100320,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 80,
+        "triggerTime_SN": 13359
+      },
+      {
+        "effectId": 11101500,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 80,
+        "triggerTime_SN": 13333
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000576,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "soundId": 30000593,
+        "triggerFrame": 80,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203476,
+    "idCN": "爬塔/机械单位/蝎型机械体/技能2状态3",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000046,
+    "aniName": "skill_02_03",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [
+      {
+        "soundId": 30000591,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203475,
+    "idCN": "爬塔/机械单位/蝎型机械体/技能2状态1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000046,
+    "aniName": "skill_02_01",
+    "isLoop": false,
+    "aniTime_SN": 18666,
+    "totalFrame": 112,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [
+      {
+        "effectId": 11100322,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000592,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203474,
+    "idCN": "爬塔/机械单位/蝎型机械体/技能2状态2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000046,
+    "aniName": "skill_02_02",
+    "isLoop": false,
+    "aniTime_SN": 21667,
+    "totalFrame": 130,
+    "customFrameTag": "",
+    "frameChanged": true,
+    "frameEventList": [
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 4,
+        "triggerTime_SN": 667,
+        "wHalf_SN": 0,
+        "x_SN": -26199,
+        "y_SN": 54700
+      },
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 18,
+        "triggerTime_SN": 3005,
+        "wHalf_SN": 0,
+        "x_SN": -24998,
+        "y_SN": 53099
+      },
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 32,
+        "triggerTime_SN": 5343,
+        "wHalf_SN": 0,
+        "x_SN": -23799,
+        "y_SN": 51600
+      },
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 46,
+        "triggerTime_SN": 7681,
+        "wHalf_SN": 0,
+        "x_SN": -27999,
+        "y_SN": 54500
+      },
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 60,
+        "triggerTime_SN": 10019,
+        "wHalf_SN": 0,
+        "x_SN": -26999,
+        "y_SN": 53000
+      },
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 74,
+        "triggerTime_SN": 12357,
+        "wHalf_SN": 0,
+        "x_SN": -25599,
+        "y_SN": 51400
+      },
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 88,
+        "triggerTime_SN": 14695,
+        "wHalf_SN": 0,
+        "x_SN": -29799,
+        "y_SN": 54500
+      },
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 102,
+        "triggerTime_SN": 17033,
+        "wHalf_SN": 0,
+        "x_SN": -28799,
+        "y_SN": 53099
+      },
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 116,
+        "triggerTime_SN": 19371,
+        "wHalf_SN": 0,
+        "x_SN": -27599,
+        "y_SN": 51300
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100324,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101506,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000578,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203485,
+    "idCN": "我方/05五星/亚莉奈/B",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000144,
+    "aniName": "skill_02",
+    "isLoop": false,
+    "aniTime_SN": 27167,
+    "totalFrame": 163,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501317,
+        "hHalf_SN": 0,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501250,
+        "hHalf_SN": 0,
+        "triggerFrame": 46,
+        "triggerTime_SN": 7667,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501328,
+        "hHalf_SN": 0,
+        "triggerFrame": 112,
+        "triggerTime_SN": 18667,
+        "wHalf_SN": 0,
+        "x_SN": 4200,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10501328,
+        "hHalf_SN": 0,
+        "triggerFrame": 118,
+        "triggerTime_SN": 19667,
+        "wHalf_SN": 0,
+        "x_SN": 4200,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10501577,
+        "hHalf_SN": 0,
+        "triggerFrame": 124,
+        "triggerTime_SN": 20667,
+        "wHalf_SN": 0,
+        "x_SN": 4200,
+        "y_SN": 15000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11103132,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104715,
+        "offsetX": 0.0,
+        "offsetY": 1.5,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11103089,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 6,
+        "triggerTime_SN": 1000
+      },
+      {
+        "effectId": 11104707,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 6,
+        "triggerTime_SN": 1000
+      },
+      {
+        "effectId": 11103105,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 112,
+        "triggerTime_SN": 18667
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30001784,
+        "triggerFrame": 14,
+        "triggerTime_SN": 3000
+      },
+      {
+        "soundId": 30001785,
+        "triggerFrame": 126,
+        "triggerTime_SN": 4000
+      }
+    ],
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,

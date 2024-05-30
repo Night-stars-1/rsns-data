@@ -153,6 +153,18 @@
         "weight": 1
       },
       {
+        "id": 82100079,
+        "weight": 1
+      },
+      {
+        "id": 82100075,
+        "weight": 1
+      },
+      {
+        "id": 82100069,
+        "weight": 1
+      },
+      {
         "id": 82100042,
         "weight": 1
       },
@@ -162,14 +174,6 @@
       },
       {
         "id": 82100073,
-        "weight": 1
-      },
-      {
-        "id": 82100075,
-        "weight": 1
-      },
-      {
-        "id": 82100069,
         "weight": 1
       },
       {
@@ -234,7 +238,7 @@
     "storeName": "总部商店",
     "unlockConditions": false,
     "conditions": 80400004,
-    "maxShopNum": 24,
+    "maxShopNum": 30,
     "autoRefresh": false,
     "refreshTimeList": [],
     "moneyList": [],
@@ -252,6 +256,10 @@
       },
       {
         "id": 40200454,
+        "weight": 1
+      },
+      {
+        "id": 40200714,
         "weight": 1
       },
       {
@@ -4118,29 +4126,29 @@
         "type": "SkipPage"
       },
       {
-        "comSequence": 5,
+        "comSequence": 8,
         "funcId": -1,
-        "id": 82100076,
+        "id": 82100034,
         "isBattlePass": false,
-        "name": "西格玛的余响",
+        "name": "追风者",
         "otherUI": "",
-        "png": "UI/Store/Store_big_skin03",
+        "png": "UI/Store/Store_big_skin06",
         "sequence": 4,
         "storeId": -1,
-        "tabPng": "UI/Store/Store_gift_tab_skin03",
+        "tabPng": "UI/Store/Store_gift_tab_skin06",
         "type": "SkipStore"
       },
       {
-        "comSequence": 6,
+        "comSequence": 1,
         "funcId": -1,
-        "id": 82100077,
+        "id": 82100038,
         "isBattlePass": false,
-        "name": "午夜余温",
+        "name": "暮光静谧",
         "otherUI": "",
-        "png": "UI/Store/Store_big_skin04",
+        "png": "UI/Store/Store_big_skin05",
         "sequence": 4,
         "storeId": -1,
-        "tabPng": "UI/Store/Store_gift_tab_skin04",
+        "tabPng": "UI/Store/Store_gift_tab_skin05",
         "type": "SkipStore"
       }
     ],
@@ -6653,7 +6661,8 @@
     "refreshType": "Daily",
     "isTime": false,
     "startTime": "2023-04-01 00:00:00",
-    "endTime": "2099-01-01 23:59:59"
+    "endTime": "2099-01-01 23:59:59",
+    "currencyShow": []
   },
   {
     "id": 40300017,
@@ -7684,6 +7693,10 @@
     "pngNotSelect": "",
     "shopList": [
       {
+        "id": 82100038,
+        "weight": 1
+      },
+      {
         "id": 82100012,
         "weight": 1
       },
@@ -7705,6 +7718,10 @@
       },
       {
         "id": 82100077,
+        "weight": 1
+      },
+      {
+        "id": 82100034,
         "weight": 1
       }
     ],
@@ -8201,103 +8218,131 @@
     "pngNotSelect": "",
     "shopList": [
       {
-        "id": 40200556,
+        "id": 40200698,
         "weight": 1
       },
       {
-        "id": 40200605,
+        "id": 40200749,
         "weight": 1
       },
       {
-        "id": 40200566,
+        "id": 40200725,
         "weight": 1
       },
       {
-        "id": 40200565,
+        "id": 40200727,
         "weight": 1
       },
       {
-        "id": 40200575,
+        "id": 40200728,
         "weight": 1
       },
       {
-        "id": 40200578,
+        "id": 40200729,
         "weight": 1
       },
       {
-        "id": 40200579,
+        "id": 40200717,
         "weight": 1
       },
       {
-        "id": 40200580,
+        "id": 40200724,
         "weight": 1
       },
       {
-        "id": 40200576,
+        "id": 40200720,
         "weight": 1
       },
       {
-        "id": 40200563,
+        "id": 40200721,
         "weight": 1
       },
       {
-        "id": 40200562,
+        "id": 40200718,
         "weight": 1
       },
       {
-        "id": 40200559,
+        "id": 40200719,
         "weight": 1
       },
       {
-        "id": 40200560,
+        "id": 40200722,
         "weight": 1
       },
       {
-        "id": 40200557,
+        "id": 40200723,
         "weight": 1
       },
       {
-        "id": 40200558,
+        "id": 40200740,
         "weight": 1
       },
       {
-        "id": 40200561,
+        "id": 40200741,
         "weight": 1
       },
       {
-        "id": 40200601,
+        "id": 40200742,
         "weight": 1
       },
       {
-        "id": 40200602,
+        "id": 40200743,
         "weight": 1
       },
       {
-        "id": 40200604,
+        "id": 40200744,
         "weight": 1
       },
       {
-        "id": 40200603,
+        "id": 40200745,
         "weight": 1
       },
       {
-        "id": 40200608,
+        "id": 40200746,
         "weight": 1
       },
       {
-        "id": 40200607,
+        "id": 40200747,
         "weight": 1
       },
       {
-        "id": 40200606,
+        "id": 40200730,
         "weight": 1
       },
       {
-        "id": 40200577,
+        "id": 40200731,
         "weight": 1
       },
       {
-        "id": 40200610,
+        "id": 40200732,
+        "weight": 1
+      },
+      {
+        "id": 40200733,
+        "weight": 1
+      },
+      {
+        "id": 40200734,
+        "weight": 1
+      },
+      {
+        "id": 40200739,
+        "weight": 1
+      },
+      {
+        "id": 40200735,
+        "weight": 1
+      },
+      {
+        "id": 40200736,
+        "weight": 1
+      },
+      {
+        "id": 40200738,
+        "weight": 1
+      },
+      {
+        "id": 40200737,
         "weight": 1
       }
     ],
@@ -8308,7 +8353,161 @@
     "refreshType": "Daily",
     "isTime": true,
     "startTime": "2024-05-20 15:00:00",
-    "endTime": "2024-06-21 00:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "currencyShow": [
+      {
+        "click": "Tips",
+        "id": 11400112
+      },
+      {
+        "click": "Tips",
+        "id": 11400001
+      }
+    ]
+  },
+  {
+    "id": 40300061,
+    "idCN": "2NPC兑换/雷比斯2",
+    "mod": "商店",
+    "isInformalData": false,
+    "storeName": "兑换商店",
+    "unlockConditions": false,
+    "conditions": -1,
+    "maxShopNum": 20,
+    "autoRefresh": false,
+    "refreshTimeList": [],
+    "moneyList": [],
+    "freeRefreshNum": 0,
+    "pngSelect": "UI/Home/HomeStore/chuang_select",
+    "pngNotSelect": "UI/Home/HomeStore/chuang_notselect",
+    "shopList": [
+      {
+        "id": 40200438,
+        "weight": 1
+      },
+      {
+        "id": 40200437,
+        "weight": 1
+      },
+      {
+        "id": 40200707,
+        "weight": 1
+      },
+      {
+        "id": 40200708,
+        "weight": 1
+      },
+      {
+        "id": 40200709,
+        "weight": 1
+      },
+      {
+        "id": 40200710,
+        "weight": 1
+      },
+      {
+        "id": 40200705,
+        "weight": 1
+      },
+      {
+        "id": 40200703,
+        "weight": 1
+      },
+      {
+        "id": 40200713,
+        "weight": 1
+      },
+      {
+        "id": 40200712,
+        "weight": 1
+      },
+      {
+        "id": 40200706,
+        "weight": 1
+      },
+      {
+        "id": 40200711,
+        "weight": 1
+      },
+      {
+        "id": 40200016,
+        "weight": 1
+      },
+      {
+        "id": 40200006,
+        "weight": 1
+      }
+    ],
+    "storeType": "Regular",
+    "TextLockId": -1,
+    "showUI": "Group_V",
+    "commodityFixedList": [],
+    "isRecordTimes": false,
+    "rewardList": [],
+    "isStationRefresh": false,
+    "capacityType": [],
+    "refreshType": "Daily",
+    "isTime": false,
+    "startTime": "2023-04-01 00:00:00",
+    "endTime": "2099-01-01 23:59:59",
+    "currencyShow": []
+  },
+  {
+    "id": 40300062,
+    "idCN": "3家具/监狱/生产设备",
+    "mod": "家具商店",
+    "isInformalData": false,
+    "storeName": "家具",
+    "unlockConditions": false,
+    "conditions": 80400008,
+    "pngSelect": "UI/Home/HomeStore/home_select",
+    "pngNotSelect": "UI/Home/HomeStore/home_unselect",
+    "shopList": [
+      {
+        "id": 40200715,
+        "weight": 1
+      }
+    ],
+    "storeType": "Regular",
+    "showUI": "Group_DiamondStore",
+    "capacityType": [
+      {
+        "id": 12600321
+      }
+    ],
+    "refreshType": "Daily",
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "currencyShow": []
+  },
+  {
+    "id": 40300063,
+    "idCN": "3家具/监狱/家具",
+    "mod": "家具商店",
+    "isInformalData": false,
+    "storeName": "家具",
+    "unlockConditions": false,
+    "conditions": 80400008,
+    "pngSelect": "UI/Home/HomeStore/home_select",
+    "pngNotSelect": "UI/Home/HomeStore/home_unselect",
+    "shopList": [
+      {
+        "id": 40200716,
+        "weight": 1
+      }
+    ],
+    "storeType": "Regular",
+    "showUI": "Group_DiamondStore",
+    "capacityType": [
+      {
+        "id": 12600321
+      }
+    ],
+    "refreshType": "Daily",
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
     "currencyShow": []
   }
 ]

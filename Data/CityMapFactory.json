@@ -781,8 +781,8 @@
       },
       {
         "id": 86400120,
-        "x": 35.0,
-        "y": -358.0
+        "x": 60.0,
+        "y": -348.0
       },
       {
         "id": 86400121,
@@ -816,54 +816,60 @@
       },
       {
         "id": 86400127,
-        "x": -380.0,
-        "y": -220.0
+        "x": -132.0,
+        "y": -326.0
       },
       {
         "id": 86400128,
         "x": -158.0,
         "y": 18.0
+      },
+      {
+        "id": 86400212,
+        "x": -348.0,
+        "y": 75.0
+      },
+      {
+        "id": 86400006,
+        "x": -348.0,
+        "y": 75.0
+      },
+      {
+        "id": 86400012,
+        "x": 262.0,
+        "y": -165.0
+      },
+      {
+        "id": 86400198,
+        "x": 262.0,
+        "y": -165.0
+      },
+      {
+        "id": 86400206,
+        "x": 262.0,
+        "y": -165.0
+      },
+      {
+        "id": 86400207,
+        "x": 431.0,
+        "y": -255.0
+      },
+      {
+        "id": 86400016,
+        "x": 262.0,
+        "y": -165.0
+      },
+      {
+        "id": 86400208,
+        "x": 431.0,
+        "y": -255.0
+      },
+      {
+        "id": 86400209,
+        "x": 431.0,
+        "y": -255.0
       }
     ],
-    "isShowRep": true,
-    "isShowConstruct": false,
-    "exitId": -1
-  },
-  {
-    "id": 86400016,
-    "idCN": "01城市地图/C4澄明数据中心S1",
-    "mod": "城市地图",
-    "isInformalData": false,
-    "bgList": [
-      {
-        "bgPath": "UI/Dialog/Back/City_CMSJZX_1",
-        "changeTime": "05:30:00",
-        "effectListId": 86400062
-      },
-      {
-        "bgPath": "UI/Dialog/Back/City_CMSJZX_1",
-        "changeTime": "10:00:00",
-        "effectListId": 86400062
-      },
-      {
-        "bgPath": "UI/Dialog/Back/City_CMSJZX_1",
-        "changeTime": "14:30:00",
-        "effectListId": 86400062
-      },
-      {
-        "bgPath": "UI/Dialog/Back/City_CMSJZX_5",
-        "changeTime": "17:30:00",
-        "effectListId": 86400062
-      },
-      {
-        "bgPath": "UI/Dialog/Back/City_CMSJZX_5",
-        "changeTime": "19:30:00",
-        "effectListId": 86400062
-      }
-    ],
-    "offsetX": 0.0,
-    "offsetY": 0.0,
-    "bubbleList": [],
     "isShowRep": true,
     "isShowConstruct": false,
     "exitId": -1
@@ -1147,6 +1153,11 @@
         "id": 86400154,
         "x": -470.0,
         "y": 343.0
+      },
+      {
+        "id": 86400211,
+        "x": -100.0,
+        "y": -124.0
       }
     ],
     "isShowRep": true,
@@ -4186,6 +4197,13 @@
     "activityId": -1,
     "startTime": "",
     "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "NoQuesting",
+        "mId": 81000209,
+        "val": 0
+      }
+    ],
     "unlockConditionsList": [
       {
         "condition": "REPLV",
@@ -4198,7 +4216,7 @@
     "btnType": "HomeInvest",
     "mId": -1,
     "uiPath": "UI/HomeInvest/HomeInvest",
-    "buildingId": -1,
+    "buildingId": 84400133,
     "stationPlace": -1,
     "dialogId": -1,
     "dungeonId": -1,
@@ -4266,7 +4284,7 @@
     "dungeonId": -1,
     "levelId": -1,
     "textId": -1,
-    "npcId": 83700014,
+    "npcId": 83700038,
     "bgPath": "UI/Dialog/Back/RestArea",
     "bgColor": "FFFFFF"
   },
@@ -4802,7 +4820,7 @@
     "name": "数据库",
     "isSpecial": false,
     "isInstance": true,
-    "iconPath": "NPC/InsZone/dixia",
+    "iconPath": "NPC/Story/SJK",
     "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_dungeonBtn_01/UI_dungeonBtn_04_1",
     "animLoop": "UI_CityBtn_01_Loop",
@@ -7607,6 +7625,396 @@
     "buildingId": -1,
     "stationPlace": 81500010,
     "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400006,
+    "idCN": "03气泡/C4澄明数据中心S0/澄明异闻奇谈/EV2-3",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "知识集市",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Valentine/Face",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": 86000009,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000210,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700367,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400012,
+    "idCN": "03气泡/C4澄明数据中心S0/澄明异闻奇谈/EV2-4",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "公寓外围",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/Story/YJGY",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": 86000009,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000211,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700368,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400198,
+    "idCN": "03气泡/C4澄明数据中心S0/澄明异闻奇谈/EV2-5",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "莉薇娅",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Livia/Face",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": 86000009,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000212,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700369,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400206,
+    "idCN": "03气泡/C4澄明数据中心S0/澄明异闻奇谈/EV2-6",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "索玛",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Sommer/Face",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": 86000009,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000213,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700370,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400207,
+    "idCN": "03气泡/C4澄明数据中心S0/澄明异闻奇谈/远见公寓-副本",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "远见公寓",
+    "isSpecial": false,
+    "isInstance": true,
+    "iconPath": "NPC/Story/YJGY",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_dungeonBtn_01/UI_dungeonBtn_04_1",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": 86000009,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000214,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDungeon",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": 20200004,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400016,
+    "idCN": "03气泡/C4澄明数据中心S0/澄明异闻奇谈/EV2-14",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "公寓外围",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/Story/YJGY",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": 86000009,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000215,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700378,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400208,
+    "idCN": "03气泡/C4澄明数据中心S0/澄明异闻奇谈/EV2-15",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "数据库入口",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/Story/YJGY",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": 86000009,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000216,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenLevel",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": 20100800,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400209,
+    "idCN": "03气泡/C4澄明数据中心S0/澄明异闻奇谈/EV2-B8",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "永生者“莉薇娅”",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/Story/Livia_Boss",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": 86000009,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000217,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenLevel",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": 20100796,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400211,
+    "idCN": "03气泡/T1荒原站S0/01建筑/兑换商店-雷比斯2",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "雷比斯",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Rebis/Face",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Station",
+        "mId": 83000010,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenBuilding",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": 84400134,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": 83700043,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400212,
+    "idCN": "03气泡/C4澄明数据中心S0/澄明异闻奇谈/EV2-2",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "摩尔",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/CMSJZX/CityHall",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": 86000009,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000209,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700366,
     "dungeonId": -1,
     "levelId": -1,
     "textId": -1,
